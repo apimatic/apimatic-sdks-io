@@ -32,4 +32,4 @@ We’ve also added bearToken authentication in Quickmocker and our API specifica
 
 The mock server expects an access token set to **1234**. Passing an invalid access token will return status code 401 access denied. 
 
-With our OpenAPI specfication sorted, let's generate our first SDK.
+With our API and API specfication sorted, let’s look at code generation tools and try them out.

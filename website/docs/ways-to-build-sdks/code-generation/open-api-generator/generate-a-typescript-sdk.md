@@ -4,22 +4,26 @@ sidebar_position: 4
 
 # Generate a Typescript SDK
 
-There are many [langage templates](https://openapi-generator.tech/docs/generators/) to choose from. Typescript offers templates to generate either server-side or front-end SDKs that run in the browser.
+There are many [langage templates](https://openapi-generator.tech/docs/generators/) to choose from. (Clojure, CSharp, Elixir, Go, Java, PHP, Python, Ruby, Typescript and more) 
 
-Front-end
+Typescript offers several flavors to generate either server-side or front-end SDKs.
+
+**Front-end**
 * typescript-angular
 * typescript-aurelia
 * typescript-jquery
 * typescript-redux-query
 * typescript-rxjs
 
-Server-side
+**Server-side**
 * typescript (experimental)
 * typescript-axios
 * typescript-fetch
 * typescript-inversify
 * typescript-nestjs (experimental)
 * typescript-node
+
+## Generate
 
 For our exercise, let’s build our SDK with the **[Typescript Fetch](https://openapi-generator.tech/docs/generators/typescript-fetch)** template. 
 
@@ -42,7 +46,9 @@ Below are the arguments we pass.
 
 There are [many more arguments](https://openapi-generator.tech/docs/usage) you can pass to customize the output from OpenAPI generator CLI.
 
-Browse to the subfolder typescript/petstore_ts_fetch and sadly there isn’t a README. Lack of documentation around how to use generated SDKs can be a challenge when using OpenAPI Generator. 
+## Compile
+
+Browse to the folder **petstore_ts_fetch** and sadly there isn’t a README. Lack of documentation around how to use generated SDKs can be a challenge when using OpenAPI Generator. 
 
 Experienced developers will notice **package.json** and **tsconfig.json** are also missing. Not sure why these are omitted, but the steps below will help install dependencies and configure Typescript in order to build your SDK.
 
@@ -53,10 +59,10 @@ Here is how I prepared the SDK to be compiled.
 1. In a terminal app, change to the typescript/petstore_ts_fetch directory.
 
 ``` bash
-cd typescript/petstore_ts_fetch
+cd petstore_ts_fetch
 ```
 
-2. Create a new package.json with this command
+2. Initialize to create a **package.json** with this command
 ``` bash
 npm init -y
 ```
@@ -71,7 +77,7 @@ npm install fetch --save
 ​​npm install @types/node --save
 ```
 
-5. Create a new tsconfig.json file 
+5. Create a new **tsconfig.json** file 
 ``` bash
 tsc --init
 ```

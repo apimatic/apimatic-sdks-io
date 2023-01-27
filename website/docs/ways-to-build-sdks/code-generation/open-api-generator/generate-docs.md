@@ -12,7 +12,7 @@ Let’s compare different [templates for generating documentation](https://opena
 |   | dynamic html | html | html2 | markdown |
 | ------ :| :------ :|  :------ :|  :------ :| :------ :| 
 | Explain methods and params | 🟢 | 🟢  | 🟢 | 🟢 |
-| Model properties | 🟢 | 🟢 | 🟢 | 🟢 |
+| Models and properties | 🟢 | 🟢 | 🟢 | 🟢 |
 | Enums allowed values | 🟢 | 🟢  | 🟢 | 🔴 |
 | Display base url | 🟢 | 🔴 | 🔴 | 🟢 |
 | Response headers | 🔴 | 🔴 | 🟡 | 🔴 |
@@ -32,11 +32,13 @@ Try it yourself, by running this command in your terminal
 docker run --rm -v ${PWD}:/local openapitools/openapi-generator-cli:v6.2.1 generate \
     -i https://raw.githubusercontent.com/apimatic/petstore/main/oas/petstore.yaml \
     -g html2 \
-    -o /local/typescript/html2
+    -o /local/html2
 ```
 
-HTML2 is the most visually appealing template and attempts to generate runnable code, but sadly misses the mark.  For example, the create pets method expects a populated Pet object, but instead a JSON object is provided. This pattern is repeated across all languages rendering all but the JavaScript snippets invalid. 
+HTML2 is the most visually appealing template and attempts to generate runnable code, but sadly misses the mark.  For example, the create pets method expects a native Pet object, but instead a JSON string is provided. For strongly typed languages, this is syntax is invalid.  This pattern is repeated across all languages. 
 
-> ![OpenAPI Generator documentation screenshot](/img/oas-documentation.png)
+![OpenAPI Generator documentation screenshot](/img/oas-documentation2.png)
 
-Don’t despair, you can clone the OpenAPI generator repository and modify the mustache templates to address many of these shortcomings. I will say that generating runnable code snippets in multiple languages was challenging and at Xero we ended up adding complex vendor extensions to achieve it. Check out [Xero’s SDK documentation](https://xeroapi.github.io/xero-node/accounting/index.html).
+Don’t despair, you can clone the OpenAPI generator repository and modify the mustache templates to address many of these shortcomings. I will say that generating runnable code snippets in multiple languages was a sizable challenging and at Xero we ended up adding complex vendor extensions to achieve it. Check out [Xero’s SDK documentation](https://xeroapi.github.io/xero-node/accounting/index.html).
+
+Next, let's look APIMatic a service to generate your SDKs and developer docs.

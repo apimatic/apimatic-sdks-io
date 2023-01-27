@@ -45,4 +45,4 @@ Here are some API specification tips when generating client SDKs.
 1.  Reuse components to avoid huge OpenAPI files
 > When you’ve finished writing the OpenAPI spec for a large or complex API, you may end up with a huge specification. Make your API specification maintainable and scalable by reusing components across your specification file. Specify the following properties (Schemas, Responses, Parameters, Examples, RequestBodies, Headers, SecuritySchemes, Links, Callbacks)  globally in the components section and reuse them. 
 
-Let’s look at code generation tools and evaluate the output. 
+We'll need an API Specification to try out different code generators. Check out our Petstore OpenAPI.
