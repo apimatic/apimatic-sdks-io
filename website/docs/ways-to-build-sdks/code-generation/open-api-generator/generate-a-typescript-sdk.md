@@ -81,5 +81,5 @@ tsc --init
 tsc --build
 ```
 
-The SDK should build successfully and be ready for use.
+The SDK should build successfully and be ready for use in our Sample App.
 

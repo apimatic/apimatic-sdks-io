@@ -4,14 +4,6 @@ sidebar_position: 1
 
 # Introduction
 
-The landscape of open source code generation tools is ever changing. Check back as we  expand this section over time.
-
-:::tip Other open source code generators
-
-There are many and include [Swagger Codegen](https://github.com/swagger-api/swagger-codegen),  [AppWrite](https://github.com/appwrite/sdk-generator), [NSwag](https://github.com/RicoSuter/NSwag) and [AutoRest](https://github.com/Azure/autorest). If you have worked with open source code generators and want to share your experience, contact us about becoming a contributor.
-
-:::
-
 [OpenAPI Generator](https://github.com/OpenAPITools/openapi-generator) is a community fork of the SmartBear project [Swagger Codegen](https://github.com/swagger-api/swagger-codegen). It’s written in Java and utilizes [mustache templates](https://mustache.github.io/) to generate SDKs in 30+ languages. The project is available on GitHub licensed under the Apache License, Version 2.0.
 
 For those wondering why the community forked Swagger CodeGen to create OpenAPI Generator, [checkout the Q and A](https://github.com/OpenAPITools/openapi-generator/blob/master/docs/qna.md). My interpretation was a disagreement between SmartBear wanting to keep backwards compatibility with Swagger 2.0 and the community wanting to prioritize OpenAPI 3.x support.
