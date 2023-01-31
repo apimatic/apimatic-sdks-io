@@ -15,7 +15,7 @@ Let’s compare different [templates for generating documentation](https://opena
 | Models and properties | 🟢 | 🟢 | 🟢 | 🟢 |
 | Enums allowed values | 🟢 | 🟢  | 🟢 | 🔴 |
 | Display base url | 🟢 | 🔴 | 🔴 | 🟢 |
-| Response headers | 🔴 | 🔴 | 🟡 | 🔴 |
+| Response headers | 🔴 | 🔴 | 🟡  | 🔴 |
 | Example JSON response | 🔴 | 🟡 | 🔴 | 🔴 |
 | Runnable code sample | 🔴 | 🔴 | 🟡 | 🔴 |
 | How authentication works | 🔴 | 🔴 | 🔴 | 🔴 |
