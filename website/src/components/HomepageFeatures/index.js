@@ -8,8 +8,9 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Our best practices include key decisions to make before you start building SDKs, features 
+        to include that boost developer productivity and the documentation and 
+        support channels for engaging developers using your SDKs.
       </>
     ),
   },
@@ -18,8 +19,9 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        In ways to build sdks, we do a deep dive on code generators, explore the reasons you may 
+        choose to build SDKs from scratch and the right and wrong ways to engage community led 
+        libraries.
       </>
     ),
   },
@@ -28,8 +30,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        We looked at 50+ companies with developer programs to examine trends around SDKs. How are 
+        they building them, what languages are they building for and other insights.
       </>
     ),
   },
