@@ -52,6 +52,4 @@ For teams with existing homegrown SDKs, you might be wondering should we continu
 
 Here is another Xero story. When I joined, we offered “wrappers”, which was our way of saying here is some code to help you authenticate and good luck with the rest. Our .NET library was the most robust and closest to a real SDK. It had started as a passion project for one of Xero’s API engineers. Maintenance wasn’t always factored into the engineer’s workload and he’d spend his weekends reviewing PRs from the community and responding to issues. 
 
-Sadly, this story isn’t uncommon. By the time I proposed using a code generator the engineer responsible for our .NET library was completely burnt out. We almost lost a valuable member of the team. After some time away from SDKs, he was happy to share his expertise with code reviews and testing of the newly generated .NET SDK.
-
-Keep doing your research and develop a plan to avoid repeating this pattern.
+By the time I proposed using a code generator the engineer responsible for our .NET library was completely burnt out. We almost lost a valuable member of the team. After some time away from SDKs, he was happy to share his expertise with code reviews and testing our new generated .NET SDK.
