@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'SDKS.io',
+  title: 'Welcome SDK Builders',
   tagline: 'Creating SDKs, Connecting APIs',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -66,12 +66,10 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Welcome',
-          },
+          {to: '/docs/introduction/what-is-an-sdk', label: 'Introduction', position: 'left'},
+          {to: '/docs/best-practices/overview', label: 'Best Practices', position: 'left'},
+          {to: '/docs/ways-to-build-sdks', label: 'Ways to Build', position: 'left'},
+          {to: '/docs/industry-research/', label: 'Industry Research', position: 'left'},   
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/apimatic/apimatic-sdks-io',
