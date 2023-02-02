@@ -66,7 +66,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {to: '/docs/introduction/what-is-an-sdk', label: 'Introduction', position: 'left'},
+          {to: '/docs/introduction', label: 'Introduction', position: 'left'},
           {to: '/docs/best-practices/overview', label: 'Best Practices', position: 'left'},
           {to: '/docs/ways-to-build-sdks', label: 'Ways to Build', position: 'left'},
           {to: '/docs/industry-research/', label: 'Industry Research', position: 'left'},   
