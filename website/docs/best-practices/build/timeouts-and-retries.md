@@ -5,7 +5,7 @@ sidebar_position: 6
 # Timeouts and Retries
 To quote John Bender from The Breakfast Club, “Screws fall out all the time. The world’s an imperfect place”. Like screws, the cloud and our APIs are not perfect and at times may be unavailable or overloaded. Your SDKs should be designed to handle these temporary disruptions.
 
-![Type of developers](/img/build-the-breakfast-club.jpeg)
+![Type of developers](/img/build-the-breakfast-club.webp)
 
 You might be tempted to build a routine that detects responses with status code 5xx or 429 and immediately try again until either a successful response is obtained or the max number of retries is reached. On the face of it, this sounds reasonable. The problem with retrying immediately after a failure is that you may be contributing to the transient problem and delaying recovery.
 
