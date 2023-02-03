@@ -8,7 +8,7 @@ Let’s be honest, it’s not easy delivering a great developer experience with 
 
 Let’s look at what is involved with 4 popular approaches: 
 
-* Code generation
-* Homegrown
-* Community led 
-* DIY with OpenAPI
+* [Code generation](/docs/ways-to-build-sdks/code-generation/)
+* [Homegrown](/docs/ways-to-build-sdks/homegrown)
+* [Community led](/docs/ways-to-build-sdks/community-led) 
+* [DIY with OpenAPI](/docs/ways-to-build-sdks/diy-with-openapi)
