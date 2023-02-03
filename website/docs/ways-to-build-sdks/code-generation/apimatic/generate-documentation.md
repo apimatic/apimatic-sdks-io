@@ -4,7 +4,9 @@ sidebar_position: 5
 
 # Generate Documentation
 
-We walk through creating a developer portal in [Generate a Portal & SDK](/docs/ways-to-build-sdks/code-generation/apimatic/generate-typescript-sdk.md). Let's look at what is included in APIMatic's developer portal.
+We walk through creating a developer portal in [Generate a Portal & SDK](/docs/ways-to-build-sdks/code-generation/apimatic/generate-typescript-sdk.md). 
+
+Let's look at what is included in APIMatic's developer portal.
 
 ## API Reference
 
@@ -33,7 +35,7 @@ If you don't like the default tutorial, you have the option to turn it off and c
 ![APIMatic custom content](/img/apimatic-custom-page-editor.png)
 
 ## Branding
-Basic customizations are possible via APIMatic's dashbaord. Change the primary and link colors, select one of 5 available fonts, add your logo to the homepage, etc.
+Basic customizations are possible via APIMatic's dashbaord. Change the primary and link colors, select a different font, add your logo to the homepage, etc.
 
 ![APIMatic custom branding](/img/apimatic-custom-branding.png)
 
@@ -47,3 +49,6 @@ Something we haven't touched on, you can include a download button for your API 
 
 ![APIMatic custom branding](/img/apimatic-custom-spec-export.png)
 
+:::note Questions about APIMatic
+Want to learn more about what's possible with APIMatic, I recommend [booking a demo](https://www.apimatic.io/request-demo/). You'll get a complete walkthrough of the product and can ask any questions you have.
+:::

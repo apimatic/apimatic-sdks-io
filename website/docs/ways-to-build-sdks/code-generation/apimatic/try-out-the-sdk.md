@@ -4,17 +4,17 @@ sidebar_position: 4
 
 # Try out the SDK
 
-The complete code for our sample app can be found on GitHub.
+The complete code for our sample app can be found on [GitHub](https://github.com/apimatic/petstore/tree/main/typescript/apimatic).
 
-**Tips for building a sample app**
+## Tips for building a sample app
 
-## Configure local dependency
+### Configure local dependency
 Typically we run a command like `npm install [x]` to add dependicies to a project. Since we haven't published our SDK to a package manager (npm), we need to point to our local copy. 
 
-Figure out the full path to your local copy of a generated SDK and add it to package.json.
+Determine the relative path to your local generated SDK and add it to package.json.
 
 ```
-"petstorelib": "/FULL_PATH_TO/Petstore
+"petstorelib":  "file:../Petstore"
 ```
 
 Your package.json will look something like this.
@@ -30,7 +30,7 @@ Your package.json will look something like this.
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "petstorelib": "/Users/sidneymaestre/Documents/GitHub/petstore/typescript/apimatic/Petstore"
+    "petstorelib": "file:../Petstore"
   },
   "keywords": [],
   "author": "",
@@ -38,7 +38,7 @@ Your package.json will look something like this.
 }
 ```
 
-## Install dependencies
+### Install dependencies
 
 With your petstore dependency sorted, you can install it with the command.
 
@@ -46,11 +46,11 @@ With your petstore dependency sorted, you can install it with the command.
 npm install
 ```
 
-## Get List of Pets
+### Get list of pets
 
 Go to the Petstore developer portal you generated and click on **List Pets**
 
-Click **Configure**, then check Show Complete File and enter *1234* for the access token.  
+Click **Configure**, then check **Show Complete File** and enter **1234** for the access token.  
 
 ![Configure code](/img/apimatic-configure-code.png)
 

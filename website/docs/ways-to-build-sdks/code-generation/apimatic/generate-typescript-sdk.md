@@ -29,7 +29,9 @@ The SDK is a zip file and clicking **Get SDK** will start the download. After yo
 
 ## Install Dependencies
 
-To resolve all dependencies, go to the SDK root directory and run the following command with npm:
+Unzip the file and resolve all dependencies. 
+
+Open a terminal app and go to the SDK root directory to run the following command:
 
 ```
 npm install

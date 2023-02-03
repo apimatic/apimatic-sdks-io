@@ -50,13 +50,13 @@ There are [many more arguments](https://openapi-generator.tech/docs/usage) you c
 
 Browse to the folder **petstore_ts_fetch** and sadly there isn’t a README. Lack of documentation around how to use generated SDKs can be a challenge when using OpenAPI Generator. 
 
-Experienced developers will notice **package.json** and **tsconfig.json** are also missing. Not sure why these are omitted, but the steps below will help install dependencies and configure Typescript in order to build your SDK.
+Experienced developers will notice **package.json** and **tsconfig.json** are also missing. Not sure why these are omitted, but the steps below will help install dependencies and configure TypeScript in order to build your SDK.
 
 > ![Type of developers](/img/oas-typescript-folder.png)
 
 Here is how I prepared the SDK to be compiled.
 
-1. In a terminal app, change to the typescript/petstore_ts_fetch directory.
+1. In a terminal app, change to the **petstore_ts_fetch** directory.
 
 ``` bash
 cd petstore_ts_fetch

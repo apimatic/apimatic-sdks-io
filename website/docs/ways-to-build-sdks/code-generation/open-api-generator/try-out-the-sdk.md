@@ -4,24 +4,24 @@ sidebar_position: 5
 
 # Try out the SDK
 
-The complete code for our sample app can be found on GitHub.
+The complete code for our sample app can be found on [GitHub](https://github.com/apimatic/petstore/blob/main/typescript/openapi-generator/).
 
 ## Tips for building a sample app
 
 ### Local code as dependency
 Typically we run a command like `npm install [x]` to add dependicies to a project. Since we haven't published our SDK to a package manager (npm), we need to point to our local copy. 
 
-Figure out the full path to your local copy of a generated SDK and add it to package.json.
+Determine the relative path to your local generated SDK and add it to package.json.
 
 ```
-"petstore": "/FULL_PATH_TO/petstore_ts_fetch
+"petstore": "file:../petstore_ts_fetch"
 ```
 
 Your package.json will look something like this.
 
 ``` json
 {
-  "name": "node_project",
+  "name": "openapi-generator-sample-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -30,7 +30,7 @@ Your package.json will look something like this.
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "petstore": "/Users/sidneymaestre/Documents/GitHub/petstore/typescript/openapi-generator/petstore_ts_fetch"
+    "petstore":  "file:../petstore_ts_fetch"
   },
   "keywords": [],
   "author": "",
@@ -39,11 +39,15 @@ Your package.json will look something like this.
 
 ```
 
+### Install dependencies
+
 With your petstore dependency sorted, you can install it with the command.
 
 ``` bash
 npm install
 ```
+
+### Get list of pets
 
 Without a README,  trial and error was needed. Below is the code for our app.
 

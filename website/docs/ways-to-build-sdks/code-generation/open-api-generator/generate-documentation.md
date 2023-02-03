@@ -35,7 +35,7 @@ docker run --rm -v ${PWD}:/local openapitools/openapi-generator-cli:v6.2.1 gener
     -o /local/html2
 ```
 
-HTML2 is the most visually appealing template and attempts to generate runnable code, but sadly misses the mark.  For example, the create pets method expects a native Pet object, but instead a JSON string is provided. For strongly typed languages, this is syntax is invalid.  This pattern is repeated across all languages. 
+HTML2 is the most visually appealing template and attempts to generate runnable code, but sadly misses the mark.  For example, the create pets method expects a native Pet object, but instead a JSON string is provided. For strongly typed languages, the syntax is invalid.  This pattern is repeated across all languages. 
 
 ![OpenAPI Generator documentation screenshot](/img/oas-documentation2.png)
 
