@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Best Practices',
+    title: <a href = "/docs/best-practices/overview"> Best Practices </a>,
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
@@ -15,7 +15,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Ways to Build SDKs',
+    title: <a href= "/docs/ways-to-build-sdks"> Ways to Build SDKs</a>,
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
@@ -26,7 +26,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Industry Research',
+    title: <a href= "/docs/industry-research/"> Industry Research </a> ,
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
