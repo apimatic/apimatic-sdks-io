@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Generate a TypeScript SDK
+# Generate an SDK
 
 There are many [langage templates](https://openapi-generator.tech/docs/generators/) to choose from. (Clojure, CSharp, Elixir, Go, Java, PHP, Python, Ruby, Typescript and more) 
 

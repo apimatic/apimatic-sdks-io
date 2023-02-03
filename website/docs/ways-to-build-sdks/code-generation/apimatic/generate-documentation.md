@@ -14,6 +14,8 @@ The developer portal has complete API reference for your API. Authentication is 
 
 Developers can select their preferred programming language and see documentation designed for them. Step by step instructions for using the correspondind SDK and each endpoint has code samples.
 
+![APIMatic custom branding](/img/apimatic-documentation.png)
+
 ## Code Samples and API Playground
 
 Code samples are condensed to focus on the functionality of each endpoint, but can be configured to show the complete code necessary to run it. Developer can customize code samples by toggling properties off & on and changing examples values in the documentation.
