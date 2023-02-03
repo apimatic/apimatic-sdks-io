@@ -8,11 +8,11 @@ sidebar_position: 1
 
 For those wondering why the community forked Swagger CodeGen to create OpenAPI Generator, [checkout the Q and A](https://github.com/OpenAPITools/openapi-generator/blob/master/docs/qna.md). My interpretation was a disagreement between SmartBear wanting to keep backwards compatibility with Swagger 2.0 and the community wanting to prioritize OpenAPI 3.x support.
 
-If you are debating between Swagger CodeGen and OpenAPI Generator, you should establish the criteria for selecting a technology and dig into the differences between these projects.
+If you are debating between Swagger CodeGen and OpenAPI Generator, you should establish some  criteria to compare these projects.
 
-One data point we can provide is around contributions and commits. Stats from [OpenHub comparing the two projects](https://openhub.net/p/_compare?project_0=swagger-codegen&project_1=openapi-generator), shows over the last 12 months OpenAPI Generator has many more contributors as well as code commits.
+One data point is stats from [OpenHub comparing the two projects](https://openhub.net/p/_compare?project_0=swagger-codegen&project_1=openapi-generator). It shows over the last 12 months OpenAPI Generator has many more contributors as well as code commits.
 
-Activity is another way to compare the projects.
+GitHub activity is another way to compare projects.
 
 | Jan 4, 2023 | Swagger CodeGen| OpenAPI Generator | 
 |  ---------: | :---------: | :---------: |

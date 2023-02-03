@@ -10,5 +10,5 @@ Let’s look at what is involved with 4 popular approaches:
 
 * Code generation
 * Homegrown
-* Community driven 
-* DIY with OpenAPI.
+* Community led 
+* DIY with OpenAPI
