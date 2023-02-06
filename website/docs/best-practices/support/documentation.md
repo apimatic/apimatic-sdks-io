@@ -42,4 +42,4 @@ Algolia provides guides for common search scenerios like [including multiple res
 
 ![Algolia Guides](/img/support-docs-algolia-guides.png)
 
-One of the challenges is providing all this documentation is a way that is for developers to navigate and discover what they are looking for.
+One of the challenges is making all this documentation easy to navigate so developers can  discover what they need.
