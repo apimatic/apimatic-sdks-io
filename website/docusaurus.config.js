@@ -63,7 +63,7 @@ const config = {
         title: 'SDKS.io',
         logo: {
           alt: 'Creating SDKs',
-          src: 'img/logo.svg',
+          src: 'img/logo-var5.svg',
         },
         items: [
           {to: '/docs/introduction', label: 'Introduction', position: 'left'},
