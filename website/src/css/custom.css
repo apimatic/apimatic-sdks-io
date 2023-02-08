@@ -59,6 +59,13 @@
   --ifm-color-danger-lightest: rgb(253, 156, 159);
 }
 
+img[src*="#logo"] {
+  width:350px;
+  height:350px;
+  float:right;
+  margin-left:5px;
+}
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   /*--ifm-hero-text-color: #fff;*/

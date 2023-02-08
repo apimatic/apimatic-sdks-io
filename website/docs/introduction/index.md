@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Welcome
 
+![API complexity vs Product Application](/img/logo-3d.svg#logo) 
+
 We've created SDKs.io for teams building SDKs. You could be a leader, architect, engineer, designer or some other role involved with building products for developers. 
 
 Our team at [APIMatic](https://www.apimatic.io/) have a lot of expereince building SDKs for APIs and want to share it with you. Throughout the site we share our opinion on a range of topics informed by our experiences. 
