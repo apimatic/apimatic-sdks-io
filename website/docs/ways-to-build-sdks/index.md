@@ -1,5 +1,14 @@
 ---
 sidebar_position: 1
+sidebar_label: Ways to Build SDKs Overview
+title: Delivering a Great SDK Experience - 4 Approaches Explored
+description: Get insights on delivering top-notch developer experience with SDKs through code generation, homegrown, community-led, and DIY with OpenAPI approaches. Learn more
+keywords:
+    - SDKs
+    - Developer experience
+    - Code generation
+    - Homegrown
+    - Community-led
 ---
 
 # Overview

@@ -1,5 +1,15 @@
 ---
 sidebar_position: 3
+sidebar_label: Idiomatic code
+title: Discover the Benefits of Using Idiomatic Code in SDKs
+description: Writing SDKS with idiomatic code to create more efficient & familiar code. Get coding style recommendations, guidelines, linting tools & more for Java, Ruby, C#, Python, PHP & TypeScript/JavaScript.
+keywords: 
+    - Idiomatic code
+    - programming language
+    - coding standards
+    - code style
+    - linting tools
+
 ---
 
 # Idiomatic code

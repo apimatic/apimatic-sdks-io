@@ -1,5 +1,14 @@
 ---
 sidebar_position: 3
+sidebar_label: How SDKs help developers
+title: What are SDKs and How Do They Help Developers?
+description: SDKs give dev teams an edge by providing code libraries, tools, documentation & sample code to help them save time and make even complex tasks easier.
+keywords: 
+    - SDKs
+    - Software Development Kits
+    - APIs
+    - Code Libraries
+    - Developer Tools
 ---
 
 # How SDKs help developers
@@ -9,7 +18,6 @@ In order to understand how SDKs help developers, it might help to contrast it wi
 Imagine, you’ve just joined Pied Piper's engineering team and it’s your first day. You’ll have a team supporting you from configuring your laptop to gaining access to systems and a lot of documentation around how engineering is done at Pied Piper. Most importantly, you spend time with your manager and your new team. Their job is to get you up and running so you can start contributing as soon as possible.
 
 ![Welcome to MegaCorp](/img/introduction-megacorp.webp)
-
 
 Companies offering APIs to external developers want to help them get up and running quickly as well. This is challenging as the developer community has diverse experiences, different use cases and preferred programming languages. It’s impossible to offer one on one support as you scale up the number of developers using your product. SDKs help companies scale self-service  onboarding by providing code libraries, quick start guides, code samples and specific use case guides, and more.
 

@@ -1,5 +1,14 @@
 ---
 sidebar_position: 5
+sidebar_label: Try out the SDK
+title: Building a Sample App with generated SDK as Local Dependency
+description: Learn how to build a sample app using local code as a dependency and tips for adding a local dependency to your project. Discover how to get a list of pets and generate documentation with OpenAPI generator. 
+keywords:
+  - Sample app
+  - Local code dependency
+  - TypeScript
+  - OpenAPI generator
+  - Pets API.
 ---
 
 # Try out the SDK

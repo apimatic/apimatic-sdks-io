@@ -1,5 +1,14 @@
 ---
 sidebar_position: 3
+sidebar_label: Petstore OpenAPI spec
+title:  Petstore API for Testing Out Code Generation Tools
+description: Get hands-on with the updated Petstore API and API specification. Try out code generation tools using the mocked API server with bearer token authentication. 
+keywords:
+  - Petstore API
+  - OpenAPI
+  - Quickmocker
+  - Code generation
+  - Bearer token authentication
 ---
 
 # Petstore OpenAPI spec

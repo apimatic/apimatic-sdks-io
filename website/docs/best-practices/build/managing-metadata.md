@@ -1,5 +1,14 @@
 ---
 sidebar_position: 7
+sidebar_label: Managing metadata
+title: Metadata Management in SDKS to Capture Additional Information from Requests and Responses
+description: Managing metadata in an API helps developers track adoption and troubleshoot issues efficiently. Custom user-agent headers can be used to identify the SDK version, while custom rate limit details can be captured
+keyword:
+    - Metadata
+    - API
+    - SDK Adoption
+    - Troubleshoot Issues
+    - Rate Limit
 ---
 
 # Managing metadata

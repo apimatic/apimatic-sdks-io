@@ -1,5 +1,14 @@
 ---
 sidebar_position: 1
+sidebar_label: Overview 
+title: Explore Code Generation with OpenAPI Generator & APIMatic
+description: Explore the constantly evolving world of code generation tools, starting with OpenAPI Generator and APIMatic. Get insights and share your experiences
+keywords:
+    - Code Generation
+    - OpenAPI Generator
+    - APIMatic
+    - API Specifications
+    - Machine Readable Blueprints
 ---
 
 # Overview

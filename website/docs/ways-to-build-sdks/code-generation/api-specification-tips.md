@@ -1,5 +1,14 @@
 ---
 sidebar_position: 2
+sidebar_label: API specification tips
+title: How to Write a Clean, Accurate API Specification
+description: A well-written API specification is essential for generating accurate and reliable SDK code. Here are some tips to help you write a clean, understandable, and maintainable specification.
+keywords:
+    - API specification
+    - Clean code
+    - Accurate coding
+    - Maintainable specification
+    - Understandable specification
 ---
 
 # API specification tips

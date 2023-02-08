@@ -1,5 +1,13 @@
 ---
 sidebar_position: 6
+sidebar_label: Timeouts and Retries
+title: Timeouts and Retries in your SDKs to Deal with Short-Term Disruptions
+description: Need to handle short-term API disruptions in your SDK? Consider exponential backoff with retry – a practice that allows APIs to recover from errors by increasing the wait time between retries. You can also add a circuit breaker function.
+keyword:
+    - Exponential backoff
+    - Retry practice
+    - Circuit breaker function
+    - API recovery from errors
 ---
 
 # Timeouts and Retries

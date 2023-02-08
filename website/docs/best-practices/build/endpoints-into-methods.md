@@ -1,5 +1,18 @@
 ---
 sidebar_position: 2
+sidebar_label: Endpoints into Methods
+title: Developing an Efficient SDK -Organizing Endpoints Into Methods
+description: Learn how to organize endpoints into methods in order to create an efficient SDK. Discover best practices when setting headers and constructing URLs with query parameters, and find out how to reduce the number of classes developers need to initialize.
+keywords: 
+    - SDK
+    - organization
+    - efficiency
+    - endpoints
+    - methods
+    - headers
+    - URLs
+    - query parameters
+
 ---
 
 # Endpoints into Methods

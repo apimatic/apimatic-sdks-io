@@ -1,5 +1,15 @@
 ---
 sidebar_position: 4
+sidebar_label: Code Hinting
+title: Developing SDKs for Modern IDEs and Popular Standards for Annotating Your Code
+description: Speed up your development process with SDKs. Take advantage of code completion and integrated documentation like JavaDocs, XML Doc Comments, pyDoc, phpDocumentor, JSDoc and RDoc to get the most out of your SDK projects.
+keywords: 
+    - IDEs
+    - Code Completion
+    - JavaDocs
+    - XML Doc Comments
+    - pyDoc
+
 ---
 
 # Code Hinting

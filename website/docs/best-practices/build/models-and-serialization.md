@@ -1,5 +1,15 @@
 ---
 sidebar_position: 3
+sidebar_label: Models & Serialization
+title: How SDKs unlock the power of models & serialization for data access in APIs
+description: Unlock the power of models and serialization for easier access to data in APIs. Create objects without referencing API documentation and add data validation. 
+keywords:
+  - APIs
+  - JSON
+  - Transfer Object
+  - POJO
+  - Developers
+
 ---
 
 # Models & Serialization

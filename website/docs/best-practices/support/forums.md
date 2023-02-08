@@ -1,5 +1,14 @@
 ---
 sidebar_position: 3
+sidebar_label: Forums
+title: Creating Groups around your SDKs in Your Developer Community
+description: Build communities, enable conversations and encourage collaboration by establishing developer forums. Moderators can help keep discussions productive and SDK groups can be created to support individual languages. Take advantage of platforms like GitHub Discussions for open source projects.
+keywords:
+    - Developer Forum
+    - Code of Conduct
+    - SDK Groups
+    - Moderators
+    - GitHub Discussions
 ---
 
 # Forums

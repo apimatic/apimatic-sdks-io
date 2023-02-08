@@ -1,5 +1,15 @@
 ---
 sidebar_position: 1
+sidebar_label: Overview
+title: A Guide to Creating Robust SDKs with RESTful APIs 
+description: Design, build & get user support for effective RESTful API SDKs. Know best practices & tips for quick, reliable results.
+keywords: 
+    - SDK
+    - RESTful API
+    - building
+    - design
+    - build
+    - support
 ---
 
 # Overview

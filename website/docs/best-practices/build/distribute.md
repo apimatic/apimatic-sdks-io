@@ -1,5 +1,14 @@
 ---
 sidebar_position: 9
+sidebar_label: Distribution
+title: How to Make Your SDKs Accessible - Distribution and Semantic Versioning
+description: Make sure your software development kits (SDKs) are accessible to developers by publishing them to popular package management platforms for each language. Include a changelog with each release and use semantic versioning.
+keywords:
+    - SDKs
+    - package management
+    - semantic versioning
+    - changelogs
+    - developers
 ---
 
 # Distribution

@@ -1,5 +1,14 @@
 ---
 sidebar_position: 1
+sidebar_label: Introduction
+title: Comparing Swagger Codegen & OpenAPI Generator
+description: Swagger Codegen and OpenAPI Generator, two popular open source projects for code generation. Comparison based on contributors, code commits, GitHub activity, and more. The best way to evaluate is to try it out
+keywords:
+    - OpenAPI Generator
+    - Swagger Codegen
+    - code generation
+    - contributors
+    - GitHub activity
 ---
 
 # Introduction

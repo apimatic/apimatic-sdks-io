@@ -1,5 +1,14 @@
 ---
 sidebar_position: 6
+sidebar_label: Generate Documentation
+title: Generating Documentation with OpenAPI Generator - A Comparison of Templates
+description: This article compares different templates for generating documentation with OpenAPI generator.  The article also highlights the limitations of template for generating runnable code snippets.
+keywords:
+    - OpenAPI generator
+    - Documentation
+    - Templates
+    - Code snippets
+    - Comparison
 ---
 
 # Generate Documentation

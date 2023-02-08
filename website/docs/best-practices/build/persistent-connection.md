@@ -1,5 +1,14 @@
 ---
 sidebar_position: 5
+sidebar_label: Persistent connection
+title: How to Improve SDK Performance with Persistent HTTP Connections
+description: HTTP Keep-Alive allows developers to send multiple requests on a single TCP connection, saving network resources and reducing latency. Use the Keep-Alive header to customize timeouts and maximum number of requests for each TCP connection.
+keyword:
+    - HTTP Keep-Alive
+    - Network resources
+    - Reduce latency
+    - Persistent connections
+    - API calls
 ---
 
 # Persistent connection

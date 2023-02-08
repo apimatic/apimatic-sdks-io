@@ -1,5 +1,14 @@
 ---
 sidebar_position: 2
+sidebar_label: Getting Started
+title: Getting Started with APIMatic - Import, Validate & Generate API Resources
+description: APIMatic is a SaaS platform that enables you to explore the capabilities of your API. Sign up, import an API spec, and validate it to generate quality code and complete developer portal with SDKs. Start your free trial today
+keywords:
+    - APIMatic
+    - SaaS
+    - API
+    - developer portal
+    - SDKs
 ---
 
 # Getting Started

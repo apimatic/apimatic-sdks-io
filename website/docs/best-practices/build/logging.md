@@ -1,5 +1,15 @@
 ---
 sidebar_position: 4
+sidebar_label: Logging
+title: Tips & Tricks for Maximizing Logging Capabilities for Your SDK
+description: Customize your SDK logging with log4j & SLF4J. Get tips to maximize logging capability while controlling data in dev & prod environments.
+keywords: 
+    - SDK Logging
+    - Log4J
+    - SLF4J
+    - Production Environment
+    - Development Environment
+
 ---
 
 # Logging

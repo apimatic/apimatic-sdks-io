@@ -1,5 +1,15 @@
 ---
 sidebar_position: 2
+sidebar_label: Open Source
+title: Open Source Your SDKs to Increase Developer Adoption on GitHub
+description: Give your developers greater access to your SDKs by open sourcing them on GitHub. Set up a README, define contribution guidelines, and use issues to keep track of the conversations with the developer community.
+keywords:
+    - open sourcing
+    - GitHub
+    - SDKs
+    - README
+    - Contributing Guidelines
+
 ---
 
 # Open Source

@@ -1,5 +1,14 @@
 ---
 sidebar_position: 5
+sidebar_label: Generate Documentation
+title: Create a Customizable Developer Portal with APIMatic's SDK & API Reference
+description: APIMatic's developer portal offers a complete API reference, language specific documentation, custom branding, code samples and playground, auto-generated tutorials, custom markdown guides, and the ability to select language SDKs.
+keywords:
+    - API Reference
+    - Customizable
+    - Developer Experience
+    - Language Specific
+    - Tutorials and Guides
 ---
 
 # Generate Documentation
