@@ -4,65 +4,76 @@ sidebar_position: 6
 
 # Build vs Buy
 
-When it comes to code generators there are many open source options beyond OpenAPI Generator as well as paid services like APIMatic. 
+Using a code generator presents the choice between building upon opensource tools or leveraging a platform. Open source solutions feel free, but let's look at key aspects of the build vs. buy decision.
 
-Open source solutions feel free, but from experience a lot of time and effort is required to produce fully featured code libraries and documentation. As well as the on-going maintenance by your team.
+## Specification Quality
 
-## Building SDKs
-Let’s review the steps to building SDKs.
+**TLDR;** 
+* *Build* you're responsible for solving issues with your API specifications. 
+* *Buy* you get access to additional validatino tools and a support team to help with issues.
 
-**Step 1: Designing an SDK**
-* Design SDKs for the user, for future extensibility.
-* What language versions to support? What are the version-specific issues and your upgrade policy?
-* Selecting dependencies to use and any fixes, limitations, quality and your upgrade policy.
-* The design, linting, and static analysis guidelines to apply throughout the codebase.
+The quality of your generated code depends on a complete and accurate API specification. Depending on the condition of your API specification, you may struggle to generate your first client SDK. We've provided some good [API specification tips](/docs/ways-to-build-sdks/code-generation/api-specification-tips) and linters are important to ensure valid specifications. A DX platform like APIMatic offers additional validation and actionable feedback when importing your API specification. Missing descriptions, inline components and issues with naming are surfaced in validation reports so they can be addressed. APIMatic also has an onboarding team that supports customers to solve complex challenges like converting between different specification formats or merging multiple specifications to create a unified developer experience.
 
-**Step 2: Implementing the SDK**
-* Translate schema to concrete types
-* Implementing API calls
-* Wrap HTTP implementation in an HTTP layer as HTTP clients come and go, so you may consider a middleware arch
-* Handle cancellation of API calls
-* Handle API/transient errors and recover gracefully (timeout, retries)
-* Handle concurrency via thread-safe calls or chaining
-* Handle response caching
-* Handle API throttling
-* Create interfaces for extension
-* Log important events (integrate into system logging)
+## SDK Features
+**TLDR;** 
+* *Build* if you want features beyond the basics, you'll need to implement them. 
+* *Buy* you'll get most of the features mentioned in the [best practices](/docs/category/build) section.
 
-**Step 3: Testing the SDK**
-* Testing all parts of the SDK code
-* Cross-platform/version testing against different language versions, OSes
-* Integration tests (end-to-end testing of SDKs)
-* Testing your code generator (if you’re using one)
+Building your SDKs give you control over the feature set. This is definitely a plus, but keep in mind the base features you can expect are limited to the following:
+* Translate schema to concrete classes
+* Implementing API calls with validation for parameters
+* Authorization headers
 
-**Step 4: Writing SDK Reference**
-* Writing getting started guides
-* Writing code examples for every endpoint
-* Creating a reference website for the SDK user
-* Creating sample applications to get started quickly
+Your team will need to build additional features like the following:
 
-**Step 5: Packaging/Publishing the SDKs**
-* Publishing packages on package repositories
-* Recreating bugs reports
-* Handling customer issues and feedback related to SDK on GitHub or other forums
+* OAuth 2 authorization codeflow interface
+* Token expiry checks and token refresh
+* Cancellation of API calls
+* Catch API/transient errors and recover gracefully (timeout, retries)
+* Concurrency via thread-safe calls or chaining
+* Response caching
+* API throttling
+* Logging important events (integrate into system logging)
+* Testing parts of the SDK code
 
-## Maintaining SDKs.
-Engineering efforts continue with maintaining the SDK program in multiple languages. Careful planning can reduce some of this cost, but the ongoing maintenance cost will still exist.
+Buying a solution typically includes all the above functionality is multiple languages.
 
-Let’s summarize the work required to maintain SDKs.
+## Documentation
+**TLDR;** 
+* *Build* more work for your team getting static documentation and code samples generated
+* *Buy* language specific, interactive docs with complete code samples out of the box.
 
-* API updates lead to SDKs needing to be updated for all languages simultaneously or the SDKs will lag behind the API updates.
-* New language or framework versions happen quite frequently and you face the choice of upgrading or accruing technical debt.
-* New dependency versions result in more fixes, updates, security fixes, development of supported features.
-* You need to test and fix bugs continuously to ensure no blockers occur at the user’s end, negatively impacting your API’s experience.
+Code annotations is a great way to generate detailed documentation for each method in your SDK. Depending on the open source tool, your team may need to modify templates to include annotations in each language. For [SDK documentation with code samples](/docs/ways-to-build-sdks/code-generation/open-api-generator/generate-documentation), your team may be required to build a solution to generate runnable code samples. 
 
-## Total cost of ownership
+DX platforms like APIMatic provide language specific documentation for each SDK. Developers can play with code samples right from the documentation and then try an API call to see the results. Generated docs can be embedded in existing portal software.
+
+## Cost of Ownership
+
+**TLDR;** 
+* *Build* low or no cost for tools with dedicated engineers to maintain tools.
+* *Buy* cost can vary based on desired features, annual subscription costs.
+
 Be honest with yourself about the costs when building SDKs in house. The project requires a lot of engineering resources to build SDKs. Building isn’t where most of the expense lies. A large cost comes with running and maintaining complicated processes and tools behind the SDK program. There is also the opportunity cost of engineers not working on other areas in your API program. 
 
+Buying your code generation solution doesn't mean you don't need any engineers to run the program. You still need staff to manage API governance and maintain a high quality API specification. You'll also want technical writers or developer advocates to educate developers about your SDKs and create content.
+
 ## Time to market
-It’s easy to be overly optimistic about how long it will take to generate SDKs in-house. At Xero the project took 12 months to release five SDKs along with documentation, code samples and starter apps. Our sixth SDK was outsourced to a team in order to meet our deadline. 
+**TLDR;** 
+* *Build* budget 9 to 12 months.
+* *Buy* budget 4 to 8 weeks.
+
+It’s easy to be overly optimistic about how long it will take to generate SDKs in-house. I've been at two companies with teams working to ship SDKs in six languages and both projects took 12 months. At one company we released five SDKs along with documentation, code samples and starter apps, but our sixth SDK was outsourced in order to meet our deadline. The outsourced work was brought in house and our team took over maintainance. 
+
+Buy options often advertise you can generate SDKs and documentation in minutes. Yes this is true, but depending on the requirements of your project there is more work to do. Work can involve cleaning up API specifications, creating additional content and guides, integrating your SDK build into a CI/CD pipeline and the dreaded procurement process.
 
 ## Operational excellence
-You may have a group of talented engineers at the start of your project, but there are risks with employee turnover. Can you achieve the same level of quality and attention to detail compared to a company that exists only for creating SDKs?
+
+**TLDR;** 
+* *Build* loss of expertise and knowledge
+* *Buy* benefit from a team 100% focused on SDKs and developer experience
+
+We hate to think about talented engineers leaving our team, but it happens. The tooling you build in house will take a unique skill set and a lot of knowledge will be accrued along the way. Replacing engineers on your team with experience and passion for SDKs may be a challenge. I lost two of engineers mid-project and didn't know if we were going to make it. I got really lucky and was able to hire someone who had a passion for building SDKs and did an amazing job. After that experience, I built redudency into the team by having a lead and backup for each language. Of course, I was the lead for two languages and eventually left the company.
+
+Buying a solution should be seen as augmenting your team with SDK experts back by a company that exists only for creating SDKs and documentation. Of course, you'll still be heavily invested in the SDK program but won't have to do it all yourself.
 
 

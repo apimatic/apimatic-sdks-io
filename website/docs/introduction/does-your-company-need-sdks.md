@@ -18,7 +18,7 @@ Based on my experience, here are a few reasons to ** NOT ** build SDKs.
 
 > The chart below illustrates how the number of use cases and API complexity influences the decision to build SDKs. Complexity can come in several forms. Authenticaion methods may be non-standard or have additional requirements to function properly. Complexity can also take the form of models with a large number of properties, nested properties, nested objects, and nested arrays of objects. Lastly, complexity can be a vast number of endpoints and actions that can be performed against them.
 
-> ![API complexity vs Product Application](/img/complexity-vs-application.png)
+![API complexity vs Product Application](/img/complexity-vs-application.png)
 
 ** You don’t have any strong competitors. **
 
@@ -32,7 +32,7 @@ Based on my experience, here are a few reasons to ** NOT ** build SDKs.
 
 > The term developer is much broader than in the past and includes those we’d call 10x engineers to those who don’t consider themselves developers but utilize no code solutions that rely on APIs to do their magic. 10x engineers have a deep knowledge of a programming language and prefer their honed methods when building software. They may only need an API reference to get the job done and see SDKs as less important. On the other end are framework, low code and no code developers leveraging prebuilt components, plugins and widgets to access APIs. Between these two groups are the mainstream developers who appreciate the availability of SDKs and code samples to save them time and accelerate their understanding of your APIs.  Ask yourself, who is my target developer and do they want SDKs?  
 
-> ![Type of developers](/img/types-of-developers.png)
+![Type of developers](/img/types-of-developers.png)
 
 ** You don’t believe SDKs are necessary to deliver a great developer experience. **
 
