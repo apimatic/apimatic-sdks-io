@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Welcome SDK Builders',
   tagline: 'Creating SDKs, Connecting APIs',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://apimatic-sdks-io.pages.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -40,14 +40,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/apimatic/apimatic-sdks-io/tree/main/website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/apimatic/apimatic-sdks-io/tree/main/website/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -128,7 +128,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} SDKs.io Built by APIMatic.`,
+        copyright: `Copyright © ${new Date().getFullYear()} SDKs.io - Built with ❤️ by APIMatic`,
       },
       prism: {
         theme: lightCodeTheme,
