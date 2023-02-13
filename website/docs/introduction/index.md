@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Welcome
 
-![API complexity vs Product Application](/img/logo-3d.svg#logo) 
+![API complexity vs Product Application](/img/logo-var4.svg#logo) 
 
 We've created SDKs.io for teams building SDKs. You could be a leader, architect, engineer, designer or some other role involved with building products for developers. 
 
