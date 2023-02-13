@@ -65,6 +65,9 @@
   --ifm-color-danger-light: rgb(251, 86, 91);
   --ifm-color-danger-lighter: rgb(251, 116, 120);
   --ifm-color-danger-lightest: rgb(253, 156, 159);
+
+  /* Sizes */
+  --ifm-navbar-height: 4.5rem;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -162,4 +165,8 @@ img[src*="#logo"] {
   .theme-doc-sidebar-item-category-level-1 {
     margin-bottom: 1rem;
   }
+}
+
+.navbar__logo {
+  height: 2.5rem;
 }
