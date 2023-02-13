@@ -148,10 +148,15 @@ img[src*="#logo"] {
   margin: 0 auto;
 }
 
-@media (min-width: 997px) {
-  .docItemCol_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Layout-styles-module,
-  .generatedIndexPage_node_modules-\@docusaurus-theme-classic-lib-theme-DocCategoryGeneratedIndexPage-styles-module {
-    padding: 0 4rem;
+@media (min-width: 1280px) {
+  main > .container > div:first-child,
+  main > .container > .row > .col:first-child 
+  {
+    padding: 0 3.75rem;
+  }
+
+  main > .container > .row {
+    padding: 0 !important;
   }
 
   .container, .menu {
