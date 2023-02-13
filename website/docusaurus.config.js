@@ -51,6 +51,9 @@ const config = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+          prism: {
+            additionalLanguages: ['http', 'php', 'csharp', 'java', 'ruby'],
+          },
         },
       }),
     ],
