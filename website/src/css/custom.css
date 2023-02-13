@@ -13,6 +13,7 @@
   --ifm-heading-font-family: 'Montserrat', sans-serif;
   --ifm-heading-font-weight: 500;
   --smaller-heading-font-weight: 700;
+  --ifm-heading-line-height: 1.5;
 
   /* Primary site color */ 
   --ifm-color-primary: #3578e5;
