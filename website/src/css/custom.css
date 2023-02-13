@@ -136,6 +136,15 @@ img[src*="#logo"] {
   margin-left:5px;
 }
 
+.navbar__link {
+  font-size: 0.875rem;
+  color: var(--ifm-menu-color);
+}
+
+.navbar__link--active {
+  color: var(--ifm-menu-color);
+}
+
 /* Limit content width */
 .main-wrapper {
   max-width: 1400px;
