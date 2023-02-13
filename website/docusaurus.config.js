@@ -73,9 +73,10 @@ const config = {
           {to: '/docs/industry-research/', label: 'Industry Research', position: 'left'},   
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/apimatic/apimatic-sdks-io',
-            label: 'GitHub',
+            href: 'https://www.apimatic.io',
+            html: '<span>Powered by </span><img src="https://blogwp.apimatic.io/wp-content/uploads/2021/12/apimatic-logo-1.svg" alt="APIMatic logo" />',
             position: 'right',
+            className: 'powered-logo'
           },
         ],
       },
@@ -86,7 +87,7 @@ const config = {
         },
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'Docs',

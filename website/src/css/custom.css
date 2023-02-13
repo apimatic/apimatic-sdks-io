@@ -212,3 +212,17 @@ img[src*="#logo"] {
   margin: 0 0 2rem 2rem;
   animation: float 3s ease-in-out infinite;
 }
+
+/* Powerd by APIMatic logo on navbar */
+.powered-logo {
+  display: flex;
+  align-items: center;
+  /* font-size: 1rem; */
+  font-weight: 500;
+  margin-right: 1rem;
+}
+
+.powered-logo > img {
+  margin-left: 0.6rem;
+  height: 20px;
+}
