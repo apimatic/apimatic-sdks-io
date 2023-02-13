@@ -125,6 +125,18 @@ h4, h5, h6 {
   font-weight: 400;
 }
 
+.navbar__title {
+  font-size: 2rem;
+  font-family: var(--ifm-heading-font-family);
+  color: #427eb1;
+  padding-left: 0.1rem;
+  font-weight: var(--ifm-heading-font-weight);
+}
+
+[data-theme="dark"] .navbar__title {
+  color: #56b6e1;
+}
+
 .navbar__link {
   font-weight: 400;
 }
