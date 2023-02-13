@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Welcome SDK Builders',
   tagline: 'Creating SDKs, Connecting APIs',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://apimatic-sdks-io.pages.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -40,14 +40,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/apimatic/apimatic-sdks-io/tree/main/website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/apimatic/apimatic-sdks-io/tree/main/website/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -73,20 +73,21 @@ const config = {
           {to: '/docs/industry-research/', label: 'Industry Research', position: 'left'},   
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/apimatic/apimatic-sdks-io',
-            label: 'GitHub',
+            href: 'https://www.apimatic.io',
+            html: '<span>Powered by </span><img src="https://blogwp.apimatic.io/wp-content/uploads/2021/12/apimatic-logo-1.svg" alt="APIMatic logo" />',
             position: 'right',
+            className: 'powered-logo'
           },
         ],
       },
       docs: {
         sidebar: {
-          hideable: true,
-          autoCollapseCategories: true,
+          hideable: false,
+          autoCollapseCategories: false,
         },
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'Docs',
@@ -128,11 +129,12 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} SDKs.io Built by APIMatic.`,
+        copyright: `Copyright © ${new Date().getFullYear()} SDKs.io - Built with ❤️ by APIMatic`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['http', 'php', 'csharp', 'java', 'ruby'],
       },
     }),
 };
