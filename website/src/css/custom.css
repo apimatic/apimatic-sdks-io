@@ -8,6 +8,7 @@
 
  /* You can override the default Infima variables here. */
 :root {
+  /* Typography */
   --ifm-font-family-base: 'Rubik', sans-serif;
   --ifm-heading-font-family: 'Montserrat', sans-serif;
   --ifm-heading-font-weight: 500;
@@ -129,4 +130,36 @@ img[src*="#logo"] {
   height:350px;
   float:right;
   margin-left:5px;
+}
+
+/* Limit content width */
+.main-wrapper {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navbar__inner {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+@media (min-width: 997px) {
+  .docItemCol_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Layout-styles-module,
+  .generatedIndexPage_node_modules-\@docusaurus-theme-classic-lib-theme-DocCategoryGeneratedIndexPage-styles-module {
+    padding: 0 4rem;
+  }
+
+  .container, .menu {
+    padding-top: 2rem !important;
+  }
+
+  .menu {
+    font-size: 0.875rem;
+    padding-right: 1rem !important;
+  }
+
+  .theme-doc-sidebar-item-category-level-1 {
+    margin-bottom: 1rem;
+  }
 }
