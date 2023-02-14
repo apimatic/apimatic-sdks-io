@@ -14,9 +14,6 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
-  // Turn off indexing until the site is ready for release.
-  noIndex: true,
-
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'apimatic', // Usually your GitHub org/user name.
