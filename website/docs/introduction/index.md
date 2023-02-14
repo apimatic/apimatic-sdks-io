@@ -20,11 +20,11 @@ SDKs.io aims to improve the state of SDK development by offering a compilation o
 
 ## What you'll find
 
-[How SDKs help developers](/docs/introduction/how-sdks-help-developers) explores looks at 7 ways SDKs help developers and [does your company need SDKs](/docs/introduction/does-your-company-need-sdks) helps you determine if your company and developer community would benefit from an SDK program.
+[How SDKs help developers](/docs/introduction/how-sdks-help-developers) looks at 7 ways SDKs help developers and [does your company need SDKs](/docs/introduction/does-your-company-need-sdks) provides tips to determine if your company and developer community would benefit from an SDK program.
 
-[Best practices](/docs/best-practices/overview) starts with your design and laying the foundation for your development. Next, we cover how to build SDKs that are feature complete and resilient. Lastly, we look at ways to engage and support developers while using your SDKs.
+[Best practices](/docs/best-practices/overview) starts with your design and laying the foundation for your development. Next, we cover how to build SDKs that are feature complete and resilient. Lastly, we look at ways to engage and support developers using your SDKs.
 
-[Ways to build SDKs](/docs/ways-to-build-sdks/) explore four popular ways to offer SDKs to your community. We do a deep dive into code generation and how to evaluate open source and paid services.
+[Ways to build SDKs](/docs/ways-to-build-sdks/) explore four popular ways to offer SDKs. We do a deep dive into code generation and how to evaluate open source and paid services.
 
 [Industry research](/docs/category/industry-research) is a project looking at SDK programs offered by leading technology companies. We observe trends and share insights to better understand the state of SDK development and where it's headed.
 
@@ -36,4 +36,4 @@ Our team at [APIMatic](https://www.apimatic.io/) have a lot of expereince buildi
 
 We don't have all the answers and invite you to contribute your stories and experiences building SDKs.  What challenges have you faced and how did you solve them. 
 
-Head over to GitHub discussions to start the conversation with our team and tell us how you'd like to contribute. If you find an error and want to submit an [issue](https://github.com/apimatic/apimatic-sdks-io/issues) or a [pull request](https://github.com/apimatic/apimatic-sdks-io/pulls), we appreciate your help.
+Head over to [GitHub discussions](https://github.com/apimatic/apimatic-sdks-io/discussions) to start the conversation with our team and tell us how you'd like to contribute. If you find an error and want to submit an [issue](https://github.com/apimatic/apimatic-sdks-io/issues) or a [pull request](https://github.com/apimatic/apimatic-sdks-io/pulls), we appreciate your help.

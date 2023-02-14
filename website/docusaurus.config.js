@@ -70,7 +70,7 @@ const config = {
           {to: '/docs/introduction', label: 'Introduction', position: 'left'},
           {to: '/docs/best-practices/overview', label: 'Best Practices', position: 'left'},
           {to: '/docs/ways-to-build-sdks', label: 'Ways to Build', position: 'left'},
-          {to: '/docs/industry-research/', label: 'Industry Research', position: 'left'},   
+          {to: '/docs/industry-sdk-research', label: 'Industry Research', position: 'left'},   
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://www.apimatic.io',
