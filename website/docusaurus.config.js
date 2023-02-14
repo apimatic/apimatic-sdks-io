@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Welcome SDK Builders',
   tagline: 'Creating SDKs, Connecting APIs',
-  url: 'https://apimatic-sdks-io.pages.dev',
+  url: 'https://sdks.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
