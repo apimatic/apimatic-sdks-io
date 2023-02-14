@@ -6,16 +6,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Welcome SDK Builders',
+  title: 'SDKs.io',
   tagline: 'Creating SDKs, Connecting APIs',
-  url: 'https://apimatic-sdks-io.pages.dev',
+  url: 'https://sdks.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-
-  // Turn off indexing until the site is ready for release.
-  noIndex: true,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -52,6 +49,9 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        gtag: {
+          trackingID: 'G-BXK6TMY6JY',
+        },
       }),
     ],
   ],
@@ -60,7 +60,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'SDKS.io',
+        title: 'SDKs.io',
         logo: {
           alt: 'Creating SDKs',
           src: 'img/logo.svg',
