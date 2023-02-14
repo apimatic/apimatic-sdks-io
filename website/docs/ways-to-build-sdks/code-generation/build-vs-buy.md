@@ -17,7 +17,7 @@ Using a code generator presents the choice between building upon opensource tool
 
 **TLDR;** 
 * *Build* you're responsible for solving issues with your API specifications. 
-* *Buy* you get access to additional validatino tools and a support team to help with issues.
+* *Buy* you get access to additional validation tools and a support team to help with issues.
 
 The quality of your generated code depends on a complete and accurate API specification. Depending on the condition of your API specification, you may struggle to generate your first client SDK. We've provided some good [API specification tips](/docs/ways-to-build-sdks/code-generation/api-specification-tips) and linters are important to ensure valid specifications. A DX platform like APIMatic offers additional validation and actionable feedback when importing your API specification. Missing descriptions, inline components and issues with naming are surfaced in validation reports so they can be addressed. APIMatic also has an onboarding team that supports customers to solve complex challenges like converting between different specification formats or merging multiple specifications to create a unified developer experience.
 
