@@ -11,7 +11,7 @@ keywords:
     - Time to Market
 ---
 
-Using a code generator presents the choice between building upon opensource tools or leveraging a platform. Open source solutions feel free, but let's look at key aspects of the build vs. buy decision.
+Using a code generator presents the choice between building tooling  in house that rely upon opensource projects or leveraging a paid service. Open source solutions feel free, but let's look at key aspects of the build vs. buy decision.
 
 ## Specification Quality
 
@@ -19,7 +19,7 @@ Using a code generator presents the choice between building upon opensource tool
 * *Build* you're responsible for solving issues with your API specifications. 
 * *Buy* you get access to additional validation tools and a support team to help with issues.
 
-The quality of your generated code depends on a complete and accurate API specification. Depending on the condition of your API specification, you may struggle to generate your first client SDK. We've provided some good [API specification tips](/docs/ways-to-build-sdks/code-generation/api-specification-tips) and linters are important to ensure valid specifications. A DX platform like APIMatic offers additional validation and actionable feedback when importing your API specification. Missing descriptions, inline components and issues with naming are surfaced in validation reports so they can be addressed. APIMatic also has an onboarding team that supports customers to solve complex challenges like converting between different specification formats or merging multiple specifications to create a unified developer experience.
+The quality of your generated code depends on a complete and accurate API specification. Depending on the condition of your API specification, you may struggle to generate your first client SDK. We've provided some good [API specification tips](/docs/ways-to-build-sdks/code-generation/api-specification-tips) and linters are important to ensure valid specifications. A service like APIMatic offers additional validation and actionable feedback when importing your API specification. Missing descriptions, inline components and issues with naming are surfaced in validation reports so they can be addressed. APIMatic also has an onboarding team that supports customers to solve complex challenges like converting between different specification formats or merging multiple specifications to create a unified developer experience.
 
 ## SDK Features
 **TLDR;** 
@@ -52,7 +52,7 @@ Buying a solution typically includes all the above functionality is multiple lan
 
 Code annotations is a great way to generate detailed documentation for each method in your SDK. Depending on the open source tool, your team may need to modify templates to include annotations in each language. For [SDK documentation with code samples](/docs/ways-to-build-sdks/code-generation/open-api-generator/generate-documentation), your team may be required to build a solution to generate runnable code samples. 
 
-DX platforms like APIMatic provide language specific documentation for each SDK. Developers can play with code samples right from the documentation and then try an API call to see the results. Generated docs can be embedded in existing portal software.
+APIMatic provides language specific documentation for each SDK. Developers can play with code samples right from the documentation and then try an API call to see the results. Generated docs can be embedded in existing portal software.
 
 ## Cost of Ownership
 
