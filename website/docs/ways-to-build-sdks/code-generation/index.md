@@ -11,8 +11,6 @@ keywords:
     - Machine Readable Blueprints
 ---
 
-# Overview
-
 The landscape of code generation tools is ever changing. At this time, we'll focus on OpenAPI Generator and APIMatic. Check back as we examine other code generators. 
 
 :::info Other generators

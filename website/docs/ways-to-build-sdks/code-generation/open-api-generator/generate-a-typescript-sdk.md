@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 sidebar_label: Generate an SDK
-title: Building a Typescript SDK using OpenAPI Generator CLI
+title: Build a Typescript SDK using OpenAPI Generator CLI
 description: Build a Typescript Fetch SDK using OpenAPI Generator CLI. Learn how to generate the SDK, install dependencies, configure TypeScript, and compile it to JavaScript. Then use the SDK in a sample app.
 keywords:
     - Typescript
@@ -10,8 +10,6 @@ keywords:
     - SDK
     - Compilation
 ---
-
-# Generate an SDK
 
 There are many [langage templates](https://openapi-generator.tech/docs/generators/) to choose from. (Clojure, CSharp, Elixir, Go, Java, PHP, Python, Ruby, Typescript and more) 
 

@@ -11,8 +11,6 @@ keywords:
   - Bearer token authentication
 ---
 
-# Petstore OpenAPI spec
-
 You might be familiar with the celebrated [Petstore API spec](https://github.com/OAI/OpenAPI-Specification/blob/main/examples/v3.0/petstore.yaml) used to learn about Swagger and OpenAPI tools.
 
 For this exercise, we'll use this modified [Petstore OpenAPI specification](https://github.com/apimatic/petstore/blob/main/oas/petstore.yaml) with updates following our [API specification tips](/docs/ways-to-build-sdks/code-generation/api-specification-tips).

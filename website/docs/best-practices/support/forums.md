@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 sidebar_label: Forums
-title: Creating Groups around your SDKs in Your Developer Community
+title: Create Developer Groups around your SDKs
 description: Build communities, enable conversations and encourage collaboration by establishing developer forums. Moderators can help keep discussions productive and SDK groups can be created to support individual languages. Take advantage of platforms like GitHub Discussions for open source projects.
 keywords:
     - Developer Forum
@@ -11,7 +11,6 @@ keywords:
     - GitHub Discussions
 ---
 
-# Forums
 Forums are classically known as areas where discussions happen. Your company might have its own discussion board, or monitor sites like Stack Overflow for conversations about your APIs. You might even have a Slack or Discord group for developers. Depending on the platform and your level of control, it helps to establish groups where similar developers can connect and find answers to their questions. You might create an SDK group or even individual language groups if you find python and php developers questions are best grouped separately. 
 
 If you administer the forum softawre, make sure you’ve established a [code of conduct](https://yahoo.github.io/oss-guide/docs/publishing/publishing-template/Code-of-Conduct.html) to keep conversations positive. Your support and/or developer relations team can help with moderating discussions and offering help. Try to strike a balance between your team answering questions first and leaving questions unanswered for weeks.  I like to give the community 24-48 hours to respond to new questions. 

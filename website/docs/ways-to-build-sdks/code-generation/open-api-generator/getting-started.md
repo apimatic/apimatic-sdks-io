@@ -10,8 +10,6 @@ keywords:
     - TypeScript
 ---
 
-# Getting Started
-
 To get started, you can download the OpenAPI generator CLI and run it locally via [Homebrew](https://github.com/OpenAPITools/openapi-generator#15---homebrew), but in my experience using a [Docker image](https://github.com/OpenAPITools/openapi-generator#16---docker) provides more flexibility.
 
 ## Installation

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 sidebar_label: Models & Serialization
-title: How SDKs unlock the power of models & serialization for data access in APIs
+title: SDKs unlock the power of models & serialization
 description: Unlock the power of models and serialization for easier access to data in APIs. Create objects without referencing API documentation and add data validation. 
 keywords:
   - APIs
@@ -12,7 +12,6 @@ keywords:
 
 ---
 
-# Models & Serialization
 Models are a common way to organize data you send and receive through APIs. It’s easier to access and update data when it’s been translated from a JSON string into a native data structure for developers to utilize. Our SDKs can help developers by handling the common tasks of serializing and deserializing JSON data into a format that is native to the programming language.
 
 In Java, the [Transfer Object](https://www.geeksforgeeks.org/transfer-object-pattern-in-java/) pattern also known as a POJO (plain old Java object) was developed to describe classes built to be passive data structures. A common trait of transfer objects is to define properties as private and limit access to them through getters, setters, and purpose built methods. 

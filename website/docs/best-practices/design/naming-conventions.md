@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2 
 sidebar_label: Naming conventions
-title: Optimizing SDKs with Naming Conventions with Class, Method and Model Names Explained
+title: Optimize SDKs with Naming Conventions
 description: Follow Azure's naming conventions for class & method names. Ensure your code is clear & understandable. Avoid generic terms, abbreviations, and stop words. Bring consistency to your SDKs. Enhance readability & usability.
 keywords: 
     - SDK Naming Conventions
@@ -11,7 +11,6 @@ keywords:
     - Azure’s Naming Conventions
 ---
 
-# Naming conventions
 SDKs should be designed with the average developer in mind. Name your classes and methods so they communicate the purpose and map to API endpoints, requests and responses. Below are some recommendations to bring naming consistency.
 
 ### Class names should

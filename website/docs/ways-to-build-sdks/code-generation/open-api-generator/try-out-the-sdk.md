@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 sidebar_label: Try out the SDK
-title: Building a Sample App with generated SDK as Local Dependency
+title: Build a Sample App with a Generated SDK
 description: Learn how to build a sample app using local code as a dependency and tips for adding a local dependency to your project. Discover how to get a list of pets and generate documentation with OpenAPI generator. 
 keywords:
   - Sample app
@@ -10,8 +10,6 @@ keywords:
   - OpenAPI generator
   - Pets API.
 ---
-
-# Try out the SDK
 
 The complete code for our sample app can be found on [GitHub](https://github.com/apimatic/petstore/blob/main/typescript/openapi-generator/).
 

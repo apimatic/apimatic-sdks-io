@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 sidebar_label: Community led
-title: Engaging Community Led Projects
+title: Engaging Community Led SDK Projects
 description: Building a strong developer experience involves taking a "company led, community driven" approach. Build quality SDKs in relevant languages, open source them and recognize the community's hard work - never expecting something without proper compensation.
 keywords:
     - SDK Strategy
@@ -11,7 +11,6 @@ keywords:
     - Community engagement
 ---
 
-# Community led
 Developers love to show off their coding skills and popular APIs are a great opportunity to do this. They may start by solving their own problem (no SDK in their preferred language). Then to help others and receive help from the community, the developer may decide to open source their code on GitHub. Projects like this may gain momentum and be used by many of your developers. 
 
 

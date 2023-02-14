@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 sidebar_label: Documentation
-title: Comprehensively Document Your SDK - What You Need to Consider
+title: Comprehensive SDK Documention - What You Need to Consider
 description: Writing comprehensive documentation for your software development kit (SDK) is critical for developers to understand your product and get the most out of it. Include an overview, SDK reference, code samples, getting started guide, and guided walkthroughs.
 keywords:
     - SDK
@@ -10,8 +10,6 @@ keywords:
     - code samples
     - walkthroughs
 ---
-
-# Documentation
 
 It’s easy to think that your method and object names are so intuitive that documentation is unnecessary. Don’t make the mistake of releasing your SDK without comprehensive documentation. Developers want details around the functionality of your SDKs. Here are types of documentation you should consider.
 

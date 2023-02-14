@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 sidebar_label: Homegrown
-title: Homegrown SDKs vs Code Generators - What’s the Right Choice in 2023
+title: Homegrown SDKs vs Code Generators
 description: Making the right decision on how to build your SDKs can be a daunting task. Weigh the pros and cons of code generators and homegrown SDKs to determine which one is right for you in 2023.
 keywords:
     - SDKs
@@ -11,8 +11,6 @@ keywords:
     - CI/CD Pipeline
 
 ---
-
-# Homegrown
 
 It’s hard to compare a homegrown SDK to other ways of building SDKs. There is no checklist of features in a homegrown SDK, it’s a blank canvas for your team. 
 

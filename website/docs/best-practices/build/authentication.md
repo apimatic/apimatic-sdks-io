@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 sidebar_label: Authentication
-title: SDK Authentication that simplifies complexity and offers flexibility
+title: SDK Authentication that simplifies complexity
 description: Unlock the Benefits of an Authentication SDK to Simplify Complexity and Offer Flexibility to Developers. Streamline Authentication with SDKs Designed for HTTP Basic, API Access Token and OAuth.
 keywords: 
     - Authentication SDK
@@ -12,7 +12,6 @@ keywords:
     - OAuth
 ---
 
-# Authentication
 SDKs offer an opportunity to simplify authentication by providing classes and methods necessary to authorize a connection. 3 common authentication approaches are HTTP basic, API access token and OAuth. For example, HTTP basic authentication requires a username and password to be properly encoded and passed as a header parameter.
 
 Below is an example of how HTTP basic could be written by a developer without an SDK. *(not including the deserializing, logging, error handling, etc)*.

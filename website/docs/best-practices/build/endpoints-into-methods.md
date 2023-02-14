@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 sidebar_label: Endpoints into Methods
-title: Developing an Efficient SDK -Organizing Endpoints Into Methods
+title: Efficient SDK - Organizing Endpoints Into Methods
 description: Learn how to organize endpoints into methods in order to create an efficient SDK. Discover best practices when setting headers and constructing URLs with query parameters, and find out how to reduce the number of classes developers need to initialize.
 keywords: 
     - SDK
@@ -15,10 +15,9 @@ keywords:
 
 ---
 
-# Endpoints into Methods
 Developers explore your API reference documentation to understand what endpoints and actions are available. The unique methods in your SDK enable developers to interact with API endpoints and perform those actions. We discussed naming conventions in the section above. Keep these in mind and the coding style of the language you are working in.
 
-## How should you organize these methods? 
+### How should you organize these methods? 
 Should you put all methods in a single class and call it ApiClient. This has the advantage of reducing the number of classes developers need to initialize. The downside as the number of endpoints increase so will the file size. At Xero, our ApiClient got so large that PHP developers needed to modify their IDE settings in order to open the large file and view the source code. We also heard from developers that it was difficult to navigate a single file with so many methods.
 
 Grouping related methods in a class with an intuitive name may be a better choice. For example, getContact, listContacts and createContact, etc would go in a class named ContactsApi (or something like it). Organizing methods in this way also helps with code hinting. Developers initializing ContactsApi see a short list of available and highly relevant methods.

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 sidebar_label: Keep up-to-date
-title: How to Keep Your SDKs Up-to-Date and Secure
+title: Keep Your SDKs Up-to-Date and Secure
 description: Make sure SDKs are up-to-date and secure as part of your API development pipeline. Include 3rd party library security updates, timely SDK releases, and deprecated functionality in your strategy. Keep developers happy and safe by staying on top of your SDKs.
 keywords:
     - SDKs
@@ -12,7 +12,6 @@ keywords:
 
 ---
 
-# Keep up-to-date
 New SDKs have amazing coverage - or at least they should. You’ve worked hard to accurately implement every endpoint and model so your SDK is a complete solution for developers. The big problem is that drift occurs over time.
 
 SDKs are how developers utilize your APIs, so updating them in a timely manner should be prioritized along with documentation. Coordinating SDK updates, tests and releases in multiple languages can be challenging. The belief that SDKs updates can wait may creep into your company's thinking. To avoid this, establish SDK updates as part of your API development pipeline.

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 sidebar_label: DIY with OpenAPI
-title: Pros and Cons of Allowing Developers To Generate Their Own SDKs
+title: Having Developers Generate Their Own SDKs
 descirption: Companies are allowing developers to generate their own SDKs from their API specs. This has advantages such as reducing time spent building SDKs, but also introduces friction and potential issues for developers. Companies should carefully consider this approach before taking it.
 keywords:
     - API-first strategies
@@ -10,8 +10,6 @@ keywords:
     - Pros & Cons
     - API Specifications
 ---
-
-# DIY with OpenAPI
 
 Some companies are providing an API specification and asking developers to generate their own SDKs. This is a new trend and it will be interesting to see how it plays out. I am most interested to hear what developers think. 
 

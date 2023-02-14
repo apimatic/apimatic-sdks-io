@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 sidebar_label: Introduction
-title: Comparing Swagger Codegen & OpenAPI Generator
+title: What is OpenAPI Generator?
 description: Swagger Codegen and OpenAPI Generator, two popular open source projects for code generation. Comparison based on contributors, code commits, GitHub activity, and more. The best way to evaluate is to try it out
 keywords:
     - OpenAPI Generator
@@ -10,8 +10,6 @@ keywords:
     - contributors
     - GitHub activity
 ---
-
-# Introduction
 
 [OpenAPI Generator](https://github.com/OpenAPITools/openapi-generator) is a community fork of the SmartBear project [Swagger Codegen](https://github.com/swagger-api/swagger-codegen). It’s written in Java and utilizes [mustache templates](https://mustache.github.io/) to generate SDKs in 30+ languages. The project is available on GitHub licensed under the Apache License, Version 2.0.
 

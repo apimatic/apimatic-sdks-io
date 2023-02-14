@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 sidebar_label: Logging
-title: Tips & Tricks for Maximizing Logging Capabilities for Your SDK
+title: Maximize Logging Capabilities in Your SDK
 description: Customize your SDK logging with log4j & SLF4J. Get tips to maximize logging capability while controlling data in dev & prod environments.
 keywords: 
     - SDK Logging
@@ -12,7 +12,6 @@ keywords:
 
 ---
 
-# Logging
 It’s difficult to predict the logging needs of developers who will use your SDKs. For this reason, allowing developers to customize logging through a configuration mechanism is appropriate. 
 
 You’ll be in control of where logging occurs in your SDK and what information is logged. Allow developers to control what level of severity is logged and where it is logged to (i.e. their terminal). Importantly, think about how logging requirements may differ between development and production environments. You don’t want sensitive customer data to end up in log files.

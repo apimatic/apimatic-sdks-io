@@ -11,8 +11,6 @@ keywords:
     - Time to Market
 ---
 
-# Build vs Buy
-
 Using a code generator presents the choice between building upon opensource tools or leveraging a platform. Open source solutions feel free, but let's look at key aspects of the build vs. buy decision.
 
 ## Specification Quality

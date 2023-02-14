@@ -12,7 +12,6 @@ keywords:
 
 ---
 
-# Idiomatic code
 Similar to a design pattern, idiomatic code does a standard task in the generally accepted way for that programming language. In doing so, the style is familiar to the developers in that community.
 
 Most web APIs send and receive data structures in JSON. For JavaScript developers this is perfect as that’s the native format for objects. SDKs in other languages serialize and deserialize JSON into native objects. This allows developers to interact with data in a way that is native to their language.

@@ -1,9 +1,16 @@
 ---
 sidebar_position: 1
+sidebar_label: Welcome
 hide_table_of_contents: true
+title: Welcome to SDKs.io
+description: SDKs provide developers with code libraries, documentation, tools and more to get apps built faster. Think of it as a LEGO set--all the pieces you need for assembly, along with instructions.
+keywords: 
+    - SDKs
+    - Software Development Kits
+    - APIs
+    - Code Libraries
+    - Developer Tools
 ---
-
-# Welcome
 
 ![API complexity vs Product Application](/img/logo-var4.svg#logo) 
 
