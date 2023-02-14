@@ -5,11 +5,10 @@ title: Industry Research on leading SDK Programs
 description: A well-written API specification is essential for generating accurate and reliable SDK code. Here are some tips to help you write a clean, understandable, and maintainable specification.
 ---
 
-We performed a quantitative survey of 53 companies who offer SDKs for use with their APIs to learn how SDKs are built, the programming languages being supported and other insights.
+We conducted a comprehensive survey of 53 organizations that offer SDKs to accompany their APIs to gain insight into the development process, supported programming languages, and other relevant factors.
 
-## Companies
-
-Companies spanned 18 industries with the top five being
+## Industry Representation
+The companies we examined covered a range of 18 industries, with the top five being:
 
 * Communications
 * Fintech
@@ -17,20 +16,22 @@ Companies spanned 18 industries with the top five being
 * Identity
 * DevTools
 
-Looking at public repositories and documentation we determined that 56% of SDKs are bespoke and homegrown by internal teams. We found that 32% of companies were using code generators as part of their SDK program. We plan to revisit these companies in the future to observe any changes or trends around how SDKs are being built.
+## SDK Development Process
+We analyzed public repositories and documentation to determine that 56% of SDKs were customized and created by internal teams. Furthermore, we discovered that 32% of businesses employed code generators as part of their SDK program. To track evolving patterns in SDK development, we plan to revisit these businesses in the future.
 
-With 32% of companies using code generators and 53% providing a public API specification, that leaves 21% with the opportunity to automate SDK development.
+## SDK Automation Opportunities
+With 32% of businesses employing code generators and 53% supplying a public API specification, 21% of companies have the possibility of automating SDK development. We've noticed a trend among businesses that provide API specifications and request developers to create their SDKs. This category accounted for 9% of the surveyed companies. Only one business elected not to offer official SDKs and instead encouraged community-driven SDK development.
 
-An emerging trend is companies choosing to provide and API specification and ask developers to generate their own SDKs. That represented 9% of the companies surveyed. Only one company choose to not offer any official SDKs and instead is promoting community led SDKs.
+ We anticipate that these findings will be useful to API companies  looking to enhance their SDK programs and developers seeking to create more efficient SDKs.
 
-## SDKs
+## SDK Breakdown
 
-The 53 companies we looked at have a combine 291 SDKs. A few insights we gathered about these SDK programs.
+In our research, we analyzed 291 SDKs from 53 companies. What we discovered was fascinating.
 
-* Oldest SDK was first released in 2009
-* Newest SDK was first released in 2022
-* Average age of an SDK is 5 years old
-* Average total number of releases is 51
-* 87% use semantic versions
+From the oldest SDK, which was released in 2009, to the newest in 2022, we found that the average age of an SDK was a mere 5 years old! SDKs are in constant evolution, always improving and expanding their features to fit users' needs.
 
-A total of 18 programming languages represented in our SDK survey. The most popular language was Java, followed by Python, Ruby. Tied for 4th place was JavaScript and PHP, while CSharp barely edged out GoLang.
+But what's even more interesting is the average number of releases, which was 51 over the lifespan of our SDKs. Taking our average age of 5 years, that's roughly 10 releases a year. I'm sure this varies between SDK programs and depends on how often APIs change and other factors.
+
+We also found that 87% of these SDKs use semantic versioning, which make it easy for developers to understand changes in the code and quickly adapt to them.
+
+But perhaps the most exciting part of our survey was discovering the vast array of programming languages that these SDKs support. With 18 languages represented, we found that Java was the most popular, followed closely by Python and Ruby. And with JavaScript and PHP tied for fourth place, CSharp barely edged out GoLang for the 5th position in our programming language list.
