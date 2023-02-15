@@ -26,7 +26,7 @@ SDKs.io aims to improve the state of SDK development by offering a compilation o
 
 [Ways to build SDKs](/docs/ways-to-build-sdks/) explore four popular ways to offer SDKs. We do a deep dive into code generation and how to evaluate open source and paid services.
 
-[Industry research](/docs/category/industry-research) is a project looking at SDK programs offered by leading technology companies. We observe trends and share insights to better understand the state of SDK development and where it's headed.
+[Industry research](/docs/industry-sdk-research) is a project looking at SDK programs offered by leading technology companies. We observe trends and share insights to better understand the state of SDK development and where it's headed.
 
 ## Why did we create SDKs.io
 
