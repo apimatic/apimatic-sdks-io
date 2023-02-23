@@ -35,4 +35,4 @@ Let’s dive into the many ways SDKs help developers.
 
 7. Lastly, for many developers the availability of quality SDKs can influence which service provider they select.
 
-Let us know if we missed any by [dropping us a note](mailto:sid.maestre@apimatic.io).
+Let us know if we missed any by heading over to [GitHub discussions](https://github.com/apimatic/apimatic-sdks-io/discussions) to connect with our team about contributing content.

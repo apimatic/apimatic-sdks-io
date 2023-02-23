@@ -18,7 +18,7 @@ Most web APIs send and receive data structures in JSON. For JavaScript developer
 
 Coding style varies from language to language. Keep that in mind when applying the naming conventions discussed in the section above. For example, if you choose to follow [Google’s Java style guidelines](https://google.github.io/styleguide/javaguide.html#s5.2.2-class-names), class names are UpperCamelCase, methods are lowerCamelCase and constants are UPPER_SNAKE_CASE. Code style goes beyond naming conventions, to offer best practices around source file structure, braces, indentation, whitespace and much more.
 
-There may be several code styles to choose from in each language. Checkout the [coding standards and code style checkers](https://docs.apimatic.io/generate-sdks/sdk-coding-standards/) we use at APIMatic. You’ll need to decide which one best represents your developers.
+There may be several code styles to choose from in each language. Checkout the [coding standards and code style checkers](https://docs.apimatic.io/generate-sdks/sdk-coding-standards/?utm_source=sdksio&utm_medium=referral) we use at APIMatic. You’ll need to decide which one best represents your developers.
 
 ### Java
 * [Oracle Java Style Guide](https://www.oracle.com/technetwork/java/codeconvtoc-136057.html)

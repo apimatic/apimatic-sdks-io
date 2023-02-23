@@ -12,7 +12,8 @@ keywords:
 ---
 
 
-There are several different API specification formats like Swagger/OpenAPI, RAML, API Blueprint, WSDL, etc. These specifications describe an API in a machine readable format and can be used to generate client-side SDKs, server-side stubs and documentation. [OpenAPI](https://swagger.io/specification/) is the dominant format and the one we'll use for our code generator demonstrations. To convert between API specifciations, checkout [APIMatic Transformer](https://www.apimatic.io/transformer/).
+There are several different API specification formats like Swagger/OpenAPI, RAML, API Blueprint, WSDL, etc. These specifications describe an API in a machine readable format and can be used to generate client-side SDKs, server-side stubs and documentation. [OpenAPI](https://swagger.io/specification/) is the dominant format and the one we'll use for our code generator demonstrations. To convert between API specifciations, checkout [APIMatic Transformer](https://www.apimatic.io/transformer/?utm_source=sdksio&utm_medium=referral).
+
 
 A simple rule for API specifications is *garbage in, garbage out*. The specification must accurately reflect the security, paths, parameters, requests, responses and schemas of the API. 
 
