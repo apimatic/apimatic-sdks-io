@@ -73,7 +73,7 @@ const config = {
           {to: '/docs/industry-sdk-research', label: 'Industry Research', position: 'left'},   
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://www.apimatic.io',
+            href: 'https://www.apimatic.io?utm_source=sdksio&utm_medium=referral',
             html: '<span>Powered by </span><img src="https://blogwp.apimatic.io/wp-content/uploads/2021/12/apimatic-logo-1.svg" alt="APIMatic logo" />',
             position: 'right',
             className: 'powered-logo'

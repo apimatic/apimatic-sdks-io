@@ -20,7 +20,7 @@ Our goals is to foster a community of SDK builders, and will start by contributi
 
 :::tip About hardware platforms or other technologies
 
-Hardware platforms like Apple iOS and other technologies like GraphQL, gRPC and platforms like Salesforce offer SDKs too. But they differ from RESTful APIs and likely need their own guides. If you have experience building other types of SDKs and would like to contribute, please [contact us](mailto:sid.maestre@apimatic.io).
+Hardware platforms like Apple iOS and other technologies like GraphQL, gRPC and platforms like Salesforce offer SDKs too. But they differ from RESTful APIs and likely need their own guides. If you have experience building other types of SDKs and would like to contribute, head over to [GitHub discussions](https://github.com/apimatic/apimatic-sdks-io/discussions) to connect with our team about contributing content or a guest blog post.
 
 :::
 

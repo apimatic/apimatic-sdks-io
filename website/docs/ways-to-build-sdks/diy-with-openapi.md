@@ -33,7 +33,7 @@ As mentioned in the [OpenAPI generator section](/docs/ways-to-build-sdks/code-ge
 
 ## Final thoughts
 
-As someone who's built developer programs, I know this stuff is hard. Asking every developer to build thier own SDK feels like punting the problem instead of solving it for your community. If you've chosen this path and want to share your experience please [contact us](mailto:sid.maestre@apimatic.io), we'd love to hear how it was recieved by your developers.
+As someone who's built developer programs, I know this stuff is hard. Asking every developer to build thier own SDK feels like punting the problem instead of solving it for your community. If you've chosen this path and want to share your experience, start a conversation on [GitHub discussions](https://github.com/apimatic/apimatic-sdks-io/discussions), we'd love to hear how it was recieved by your developers.
 
 
  
