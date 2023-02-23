@@ -40,7 +40,7 @@ Each summary will list errors, warnings and messages to help you improve your AP
 Now that you've successfully imported the [Petstore API specification](/docs/ways-to-build-sdks/code-generation/petstore-openapi.md), you have the option to generate a complete Developer Portal (which includes SDKs), or a Single SDK. 
 
 :::info Using your own API specification
-Importing your own API specification might return validation errors or warnings. This means your specification may need additional refinement to generate quality code. Reach out to [APIMatic's support team](https://www.apimatic.io/contact/?utm_source=sdksio&utm_medium=referral) they can assist you in resolving issues so you can test a generated SDK with your own API.
+Importing your own API specification might return validation errors or warnings. This means your specification may need additional refinement to generate quality code. You can reach out to [APIMatic's support team](https://www.apimatic.io/contact/?utm_source=sdksio&utm_medium=referral) who can assist you in resolving issues so you can test a generated SDK with your own API.
 :::
 
 In the next section, we'll generate a Developer Portal and TypeScript SDK along with it.
