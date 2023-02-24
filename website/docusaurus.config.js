@@ -21,7 +21,7 @@ const config = {
 
   scripts: [
     {
-      src: 'https://platform-api.sharethis.com/js/sharethis.js#property=63f9171405b84a001211dfa4&product=inline-share-buttons&source=platform',
+      src: 'https://platform-api.sharethis.com/js/sharethis.js#property=63ea993b1aa47000121cd972&product=sop', 
       async: true,
     }
   ],

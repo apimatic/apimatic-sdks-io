@@ -11,7 +11,7 @@ keywords:
 
 ---
 
-<!-- ShareThis BEGIN --><div class="sharethis-inline-share-buttons"></div><!-- ShareThis END -->
+<div class="sharethis-inline-share-buttons"></div>
 
 I’d love to answer with a simple yes or no, but like many things in life … it depends.
 
