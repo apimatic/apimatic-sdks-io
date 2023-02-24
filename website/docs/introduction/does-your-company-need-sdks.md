@@ -11,7 +11,9 @@ keywords:
 
 ---
 
+<p>
 <div class="sharethis-inline-share-buttons"></div>
+</p>
 
 I’d love to answer with a simple yes or no, but like many things in life … it depends.
 

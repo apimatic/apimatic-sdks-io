@@ -11,7 +11,9 @@ keywords:
     - Developer Tools
 ---
 
+<p>
 <div class="sharethis-inline-share-buttons"></div>
+</p>
 
 In order to understand how SDKs help developers, it might help to contrast it with how developers come up to speed in a new job. 
 
