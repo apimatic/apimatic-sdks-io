@@ -19,6 +19,14 @@ const config = {
   organizationName: 'apimatic', // Usually your GitHub org/user name.
   projectName: 'apimatic-sdks-io', // Usually your repo name.
 
+  scripts: [
+    {
+      src: 'https://platform-api.sharethis.com/js/sharethis.js#property=63f9171405b84a001211dfa4&product=inline-share-buttons&source=platform',
+      async: true,
+    }
+  ],
+
+
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
