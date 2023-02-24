@@ -10,6 +10,7 @@ keywords:
     - Code Libraries
     - Developer Tools
 ---
+<div class="sharethis-inline-share-buttons"></div>
 
 SDKs, software development kits, provide developers the code necessary to interact with an underlying system (often APIs). SDKs are sometimes viewed as just code libraries, but the term “kit” implies more. SDKs do include code libraries, but they also have relevant documentation, code samples, developer guides, additional tools (i.e. compiler, debuggers, etc) and other supplementary materials. SDKs won’t build your API integration for you, instead they provide building blocks to accelerate development.
 
