@@ -8,7 +8,6 @@ keywords:
     - API Complexity
     - Use Cases
     - Developer Targeting
-
 ---
 
 <p>
@@ -19,7 +18,7 @@ I’d love to answer with a simple yes or no, but like many things in life … i
 
 Based on my experience, here are a few reasons to ** NOT ** build SDKs.
 
-### Your API for a small number of developers.
+### Your API is for a small number of developers.
 
 [Karbon](https://developers.karbonhq.com/) builds software for accountants and receives requests from customers to integrate with a number of applications. To enable potential partnerships, they’ve built a set of APIs. Since Karbon is a vertical solution, the number of partners (and use cases) is limited and their customers prefer low code solutions over building custom integrations. For this reason, Karbon focuses on delivering quality APIs and documentation but not SDKs.
 
