@@ -36,6 +36,8 @@ Your team will need to build additional features like the following:
 * OAuth 2 authorization codeflow interface
 * Token expiry checks and token refresh
 * Cancellation of API calls
+* Fix any shortcoming in the schema to concrete class conversions (like  nullable)
+* Find solutions to unsupported specification standards (like oneOf and anyOf)
 * Catch API/transient errors and recover gracefully (timeout, retries)
 * Concurrency via thread-safe calls or chaining
 * Response caching

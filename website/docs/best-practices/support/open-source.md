@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 sidebar_label: Open Source
-title: Open Source SDKs to Increase Developer Adoption
+title: Open Sourcing SDKs and Building Trust
 description: Give your developers greater access to your SDKs by open sourcing them on GitHub. Set up a README, define contribution guidelines, and use issues to keep track of the conversations with the developer community.
 keywords:
     - open sourcing
@@ -12,7 +12,11 @@ keywords:
 
 ---
 
-You should consider open sourcing your SDKs on GitHub. It’s very popular with companies who provide SDKs to their developers. In addition to your SDKs, you can collect the code from a getting started or use case guide and make it available to developers via GitHub.
+You should consider open sourcing your SDKs on GitHub. It’s very popular with companies who provide SDKs to their developers. 
+
+Open sourcing SDKs is an excellent way to build trust in the code that you provide developers to use in their app. Trust comes from their ability to inspect the code, see test cases and test coverage, and  quality checks like linting and security scans reported. Activity around your SDK repository reinforces that they are being actively maintained through frequent commits and releases. Developers also want to see how many open issues and bugs are on the repository and to interact with the team maintaining your SDKs. These are some of the qualities that a developers would expect from a software library or dependency they are about to use in their production code.
+
+Beyond SDK code libraries, you can share code used in a getting started, use case guide or blog posts. Providing fully runnable examples of how to use your SDK in a separate repository will be appreciated by your developers.
 
 ## ReadMe
 Developers may go directly to GitHub looking for your SDK instead of your developer portal. Have a well written README that includes a condensed version of your getting started guide and links to other documentation like the SDK reference.
