@@ -45,7 +45,7 @@ If you've chosen the homegrown path, checkout our [best practices section](/docs
 
 :::tip Building or maintaining homegrown SDKs?
 
-If your team is taking this approach, [reach out](mailto:sid.maestre@apimatic.io) and share your story. What factored into your decision, how many SDKs are you supporting, what is the composition of the team and how is it going.
+If your team is taking this approach, start a conversation on [GitHub discussions](https://github.com/apimatic/apimatic-sdks-io/discussions), and share your story (maybe you'd like to write a guest blog post). What factored into your decision, how many SDKs are you supporting, what is the composition of the team and how is it going.
 
 :::
 

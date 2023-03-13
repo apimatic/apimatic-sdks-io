@@ -19,6 +19,14 @@ const config = {
   organizationName: 'apimatic', // Usually your GitHub org/user name.
   projectName: 'apimatic-sdks-io', // Usually your repo name.
 
+  scripts: [
+    {
+      src: 'https://platform-api.sharethis.com/js/sharethis.js#property=63ea993b1aa47000121cd972&product=sop', 
+      async: true,
+    }
+  ],
+
+
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -70,10 +78,10 @@ const config = {
           {to: '/docs/introduction', label: 'Introduction', position: 'left'},
           {to: '/docs/best-practices/overview', label: 'Best Practices', position: 'left'},
           {to: '/docs/ways-to-build-sdks', label: 'Ways to Build', position: 'left'},
-          {to: '/docs/industry-research/', label: 'Industry Research', position: 'left'},   
+          {to: '/docs/industry-sdk-research', label: 'Industry Research', position: 'left'},   
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://www.apimatic.io',
+            href: 'https://www.apimatic.io?utm_source=sdksio&utm_medium=referral',
             html: '<span>Powered by </span><img src="https://blogwp.apimatic.io/wp-content/uploads/2021/12/apimatic-logo-1.svg" alt="APIMatic logo" />',
             position: 'right',
             className: 'powered-logo'

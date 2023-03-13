@@ -33,9 +33,11 @@ Below is an example of how HTTP basic might look for a developer using your SDK.
 
 ```java
 DefaultClient defaultClient = new DefaultClient();
-defaultClient.init(‘username’, ‘password’);
+defaultClient.init("foo", "bar");
 
 ApiClient apiClient = new ApiClient(defaultClient);
+
+// listUsers handles setting the authorization header automatically
 List<User> users = apiClient.listUsers();
 ```
 

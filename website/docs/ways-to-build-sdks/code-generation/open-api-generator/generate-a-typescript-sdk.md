@@ -89,7 +89,7 @@ npm install fetch --save
 tsc --init
 ```
 
-1. Compile TypeScript to JavaScript 
+6. Compile TypeScript to JavaScript 
 ``` bash
 tsc --build
 ```
