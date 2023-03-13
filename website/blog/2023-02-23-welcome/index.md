@@ -1,6 +1,6 @@
 ---
 slug: contribute-to-sdk-io
-title: Share you SDK experiences
+title: Share your SDK experiences
 authors: [sidmaestre]
 tags: [sdks]
 ---
