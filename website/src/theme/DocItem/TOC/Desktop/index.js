@@ -58,7 +58,7 @@ function getSocialLinkForCurrentPage(site) {
   window.open(
     `https://www.addtoany.com/add_to/${site}?linkurl=${encodeURIComponent(
       document.location.href
-    )}&amp;linkname=${encodeURIComponent(document.title)}`,
+    )}&linkname=${encodeURIComponent(document.title)}`,
     "_blank"
   );
 }
@@ -67,7 +67,7 @@ function getShareLinkForCurrentPage() {
   window.open(
     `https://www.addtoany.com/share#url=${encodeURIComponent(
       document.location.href
-    )}&amp;linkname=${encodeURIComponent(document.title)}`,
+    )}&linkname=${encodeURIComponent(document.title)}`,
     "_blank"
   );
 }
