@@ -3,7 +3,6 @@ sidebar_position: 2
 image: /covers/introduction/what-is-an-sdk.png
 sidebar_label: What is an SDK
 title: What is a Software Development Kit
-image: /img/general-social-tile.png
 description: SDKs provide developers with code libraries, documentation, tools and more to get apps built faster. Think of it as a LEGO set--all the pieces you need for assembly, along with instructions.
 keywords: 
     - SDKs
