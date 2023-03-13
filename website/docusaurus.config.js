@@ -136,6 +136,11 @@ const config = {
         darkTheme: darkCodeTheme,
         additionalLanguages: ['http', 'php', 'csharp', 'java', 'ruby'],
       },
+      algolia: {
+        appId: "444RKEQ75U",
+        apiKey: "bbb3b22eb692710af2b6f32e78c9fcea",
+        indexName: "sdks",
+      }
     }),
 };
 
