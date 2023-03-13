@@ -86,6 +86,10 @@ const config = {
             position: 'right',
             className: 'powered-logo'
           },
+          {
+            type: 'search',
+            position: 'right',
+          },
         ],
       },
       docs: {
