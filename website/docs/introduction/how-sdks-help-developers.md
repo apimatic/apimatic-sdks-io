@@ -11,10 +11,6 @@ keywords:
     - Developer Tools
 ---
 
-<p>
-<div class="sharethis-inline-share-buttons"></div>
-</p>
-
 In order to understand how SDKs help developers, it might help to contrast it with how developers come up to speed in a new job. 
 
 Imagine, you’ve just joined Pied Piper's engineering team and it’s your first day. You’ll have a team supporting you from configuring your laptop to gaining access to systems and a lot of documentation around how engineering is done at Pied Piper. Most importantly, you spend time with your manager and your new team. Their job is to get you up and running so you can start contributing as soon as possible.
