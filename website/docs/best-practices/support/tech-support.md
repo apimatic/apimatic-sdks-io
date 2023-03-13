@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+image: /covers/best-practices/support/tech-support.png
 sidebar_label: Tech Support
 title: How SDKs Can Streamline Your Support Function
 description: SDKs are key for onboarding developers and helping your support team focus on more complex tasks. They provide access to libraries, guides, and code samples for a self-service experience and allow your engineers to quickly troubleshoot any issues that arise. 

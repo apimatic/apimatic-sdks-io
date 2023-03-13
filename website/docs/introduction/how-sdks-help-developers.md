@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+image: /covers/introduction/how-sdks-help-developers.png
 sidebar_label: How SDKs help developers
 title: 7 Ways SDKs Help Developers
 description: SDKs give dev teams an edge by providing code libraries, tools, documentation & sample code to help them save time and make even complex tasks easier.

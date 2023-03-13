@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+image: /covers/best-practices/design/idiomatic-code.png
 sidebar_label: Idiomatic code
 title: What is idiomatic code?
 description: Writing SDKS with idiomatic code to create more efficient & familiar code. Get coding style recommendations, guidelines, linting tools & more for Java, Ruby, C#, Python, PHP & TypeScript/JavaScript.

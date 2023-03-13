@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+image: /covers/ways-to-build-sdks/code-generation/index.png
 sidebar_label: Overview 
 title: Explore Code Generation with OpenAPI Generator & APIMatic
 description: Explore the constantly evolving world of code generation tools, starting with OpenAPI Generator and APIMatic. Get insights and share your experiences

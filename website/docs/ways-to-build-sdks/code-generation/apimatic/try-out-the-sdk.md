@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+image: /covers/ways-to-build-sdks/code-generation/apimatic/try-out-the-sdk.png
 sidebar_label: Try out the SDK
 title: Build a Sample App with APIMatic generated SDK
 description: Learn how to build a sample app using the Petstore API, including tips for configuring local dependencies, installing dependencies, getting a list of pets, and customizing generated documentation. A complete code example is provided.

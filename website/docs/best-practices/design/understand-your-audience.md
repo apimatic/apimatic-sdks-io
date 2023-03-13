@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+image: /covers/best-practices/design/understand-your-audience.png
 sidebar_label: Prepare to build SDKs
 title: Prepare to build SDKs
 description: To build SDKs, consider your developer audience and their use cases, which programming languages to support, frameworks to target, and whether to use code generation. Additionally, decide whether to make the SDKs open source or proprietary, support asynchronous programming paradigms, and evaluate security for server-side vs client-side usage.

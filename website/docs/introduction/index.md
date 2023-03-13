@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+image: /covers/introduction/index.png
 sidebar_label: Welcome
 hide_table_of_contents: true
 title: Welcome to SDKs.io

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+image: /covers/best-practices/overview.png
 sidebar_label: Overview
 title: A Guide to Creating SDKs for RESTful APIs 
 description: Design, build & get user support for effective RESTful API SDKs. Know best practices & tips for quick, reliable results.

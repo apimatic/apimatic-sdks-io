@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+image: /covers/best-practices/build/authentication.png
 sidebar_label: Authentication
 title: SDK Authentication that simplifies complexity
 description: Unlock the Benefits of an Authentication SDK to Simplify Complexity and Offer Flexibility to Developers. Streamline Authentication with SDKs Designed for HTTP Basic, API Access Token and OAuth.

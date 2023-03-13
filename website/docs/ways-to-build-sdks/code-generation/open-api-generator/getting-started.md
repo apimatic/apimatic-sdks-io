@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+image: /covers/ways-to-build-sdks/code-generation/open-api-generator/getting-started.png
 sidebar_label: Getting Started
 title: Getting Started with OpenAPI Generator
 description: OpenAPI Generator allows you to quickly create SDKs for various languages from a given API specification. Using the Petstore API specification, we can generate a TypeScript SDK with OpenAPI Generator. 

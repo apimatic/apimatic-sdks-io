@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+image: /covers/best-practices/support/documentation.png
 sidebar_label: Documentation
 title: Create Comprehensive SDK Documention
 description: Writing comprehensive documentation for your software development kit (SDK) is critical for developers to understand your product and get the most out of it. Include an overview, SDK reference, code samples, getting started guide, and guided walkthroughs.

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+image: /covers/best-practices/build/endpoints-into-methods.png
 sidebar_label: Endpoints into Methods
 title: Translating API Endponts into SDK Methods
 description: Learn how to organize endpoints into methods in order to create an efficient SDK. Discover best practices when setting headers and constructing URLs with query parameters, and find out how to reduce the number of classes developers need to initialize.

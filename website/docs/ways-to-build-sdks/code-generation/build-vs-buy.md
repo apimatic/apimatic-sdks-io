@@ -1,5 +1,6 @@
 ---
 sidebar_position: 6
+image: /covers/ways-to-build-sdks/code-generation/build-vs-buy.png
 sidebar_label: Build vs Buy
 title: Build vs Buy SDKs and Key Aspects of the Decision
 description: Comparing building or buying a code generator presents different advantages in terms of specification quality, SDK features, documentation and cost of ownership. Learn about the pros and cons for each option and plan accordingly for time to market.

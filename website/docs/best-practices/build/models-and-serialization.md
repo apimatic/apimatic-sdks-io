@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+image: /covers/best-practices/build/models-and-serialization.png
 sidebar_label: Models & Serialization
 title: Benefits of Models and Data Typing
 description: Unlock the power of models and serialization for easier access to data in APIs. Create objects without referencing API documentation and add data validation. 

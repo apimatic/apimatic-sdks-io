@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+image: /covers/best-practices/build/logging.png
 sidebar_label: Logging
 title: Add Logging in Your SDK
 description: Customize your SDK logging with log4j & SLF4J. Get tips to maximize logging capability while controlling data in dev & prod environments.

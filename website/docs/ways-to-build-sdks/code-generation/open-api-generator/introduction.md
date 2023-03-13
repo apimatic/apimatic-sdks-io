@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+image: /covers/ways-to-build-sdks/code-generation/open-api-generator/introduction.png
 sidebar_label: Introduction
 title: What is OpenAPI Generator?
 description: Swagger Codegen and OpenAPI Generator, two popular open source projects for code generation. Comparison based on contributors, code commits, GitHub activity, and more. The best way to evaluate is to try it out

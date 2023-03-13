@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+image: /covers/industry-sdk-research.png
 sidebar_label: Industry Research
 title: Industry Research on leading SDK Programs
 description: A well-written API specification is essential for generating accurate and reliable SDK code. Here are some tips to help you write a clean, understandable, and maintainable specification.

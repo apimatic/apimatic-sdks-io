@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+image: /covers/ways-to-build-sdks/code-generation/api-specification-tips.png
 sidebar_label: API specification tips
 title: How to Write a Clean API Specification for CodeGen
 description: A well-written API specification is essential for generating accurate and reliable SDK code. Here are some tips to help you write a clean, understandable, and maintainable specification.

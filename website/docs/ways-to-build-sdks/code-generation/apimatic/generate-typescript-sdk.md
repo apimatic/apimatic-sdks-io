@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+image: /covers/ways-to-build-sdks/code-generation/apimatic/generate-typescript-sdk.png
 sidebar_label: Generate a Portal & SDK
 title: Generate a TypeScript SDK and Developer Portal
 description: Learn how to generate and use a TypeScript SDK from a developer portal. Follow the steps to preview the API portal, download the SDK, install dependencies, and build the SDK for use in a sample app. Get runnable code samples to help build your application.

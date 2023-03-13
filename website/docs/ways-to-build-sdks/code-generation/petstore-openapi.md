@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+image: /covers/ways-to-build-sdks/code-generation/petstore-openapi.png
 sidebar_label: Petstore OpenAPI spec
 title:  Petstore API for Testing Out Code Generation Tools
 description: Get hands-on with the updated Petstore API and API specification. Try out code generation tools using the mocked API server. 

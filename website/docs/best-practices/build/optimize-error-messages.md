@@ -1,5 +1,6 @@
 ---
 sidebar_position: 8
+image: /covers/best-practices/build/optimize-error-messages.png
 sidebar_label: Optimize error message
 title: Optimize Your API Error Messages in SDKs
 description: Error messages are more than just a 400 Bad Request. Learn how to optimize your API error messages and create granular exception classes for better developer experience.

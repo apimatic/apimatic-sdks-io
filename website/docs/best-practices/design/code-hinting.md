@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+image: /covers/best-practices/design/code-hinting.png
 sidebar_label: Code Hinting
 title: Deliver Code Hinting with Annotations
 description: Speed up your development process with SDKs. Take advantage of code completion and integrated documentation like JavaDocs, XML Doc Comments, pyDoc, phpDocumentor, JSDoc and RDoc to get the most out of your SDK projects.

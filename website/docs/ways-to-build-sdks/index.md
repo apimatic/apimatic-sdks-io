@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+image: /covers/ways-to-build-sdks/index.png
 sidebar_label: Ways to Build SDKs Overview
 title: Four Approaches to Delivering SDKs
 description: Get insights on delivering top-notch developer experience with SDKs through code generation, homegrown, community-led, and DIY with OpenAPI approaches. Learn more

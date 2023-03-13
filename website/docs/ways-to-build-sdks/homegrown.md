@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+image: /covers/ways-to-build-sdks/homegrown.png
 sidebar_label: Homegrown
 title: Homegrown SDKs vs Code Generators
 description: Making the right decision on how to build your SDKs can be a daunting task. Weigh the pros and cons of code generators and homegrown SDKs to determine which one is right for you in 2023.

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 9
+image: /covers/best-practices/build/distribute.png
 sidebar_label: Distribution
 title: SDK Distribution with Package Publishing
 description: Make sure your software development kits (SDKs) are accessible to developers by publishing them to popular package management platforms for each language. Include a changelog with each release and use semantic versioning.

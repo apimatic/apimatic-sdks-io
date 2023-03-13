@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+image: /covers/best-practices/support/open-source.png
 sidebar_label: Open Source
 title: Open Sourcing SDKs and Building Trust
 description: Give your developers greater access to your SDKs by open sourcing them on GitHub. Set up a README, define contribution guidelines, and use issues to keep track of the conversations with the developer community.

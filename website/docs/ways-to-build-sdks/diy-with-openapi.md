@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+image: /covers/ways-to-build-sdks/diy-with-openapi.png
 sidebar_label: DIY with OpenAPI
 title: Having Developers Generate Their Own SDKs
 descirption: Companies are allowing developers to generate their own SDKs from their API specs. This has advantages such as reducing time spent building SDKs, but also introduces friction and potential issues for developers. Companies should carefully consider this approach before taking it.
