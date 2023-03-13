@@ -3,6 +3,7 @@ sidebar_position: 2
 image: /covers/introduction/what-is-an-sdk.png
 sidebar_label: What is an SDK
 title: What is a Software Development Kit
+image: /img/general-social-tile.png
 description: SDKs provide developers with code libraries, documentation, tools and more to get apps built faster. Think of it as a LEGO set--all the pieces you need for assembly, along with instructions.
 keywords: 
     - SDKs
@@ -11,10 +12,6 @@ keywords:
     - Code Libraries
     - Developer Tools
 ---
-
-<p>
-<div class="sharethis-inline-share-buttons"></div>
-</p>
 
 SDKs, software development kits, provide developers the code necessary to interact with an underlying system (often APIs). SDKs are sometimes viewed as just code libraries, but the term “kit” implies more. SDKs do include code libraries, but they also have relevant documentation, code examples, developer guides, additional tools (i.e. compiler, debuggers, etc) and other supplementary materials. SDKs won’t build your API integration for you, instead they provide building blocks to accelerate development.
 

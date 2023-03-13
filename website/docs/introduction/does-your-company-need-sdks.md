@@ -3,6 +3,7 @@ sidebar_position: 4
 image: /covers/introduction/does-your-company-need-sdks.png
 sidebar_label: Do you need SDKs?
 title: Should You Invest in Building SDKs
+image: /img/general-social-tile.png
 description: Building SDKs can be a key investment for businesses to engage developers & keep them up-to-date with the latest features. Consider API complexity, use cases & target developers before investing.
 keywords: 
     - SDK Investment
@@ -10,10 +11,6 @@ keywords:
     - Use Cases
     - Developer Targeting
 ---
-
-<p>
-<div class="sharethis-inline-share-buttons"></div>
-</p>
 
 I’d love to answer with a simple yes or no, but like many things in life … it depends.
 

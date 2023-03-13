@@ -4,6 +4,7 @@ image: /covers/introduction/index.png
 sidebar_label: Welcome
 hide_table_of_contents: true
 title: Welcome to SDKs.io
+image: /img/general-social-tile.png
 description: SDKs provide developers with code libraries, documentation, tools and more to get apps built faster. Think of it as a LEGO set--all the pieces you need for assembly, along with instructions.
 keywords: 
     - SDKs
@@ -15,9 +16,6 @@ keywords:
 
 ![Welcome to SDKs.io](/img/logo-var4.svg#logo) 
 
-<p>
-<div class="sharethis-inline-share-buttons"></div>
-</p>
 SDKs (Software Development Kits) are an essential part of the developer experience, providing developers with a convenient and user-friendly way to interact with APIs. SDKs abstract away complexity and reduce the amount of code needed to perform common tasks. Despite their importance, SDKs can be difficult to build and maintain in multiple languages. Without established standards, teams are left to make decisions with incomplete information around what developers want and the features other companies are including in their SDKs. 
 
 SDKs.io aims to improve the state of SDK development by offering a compilation of recommended practices for creating and utilizing SDKs. This resource covers subjects such as design and support, as well as guidelines for constructing top-notch SDKs, offering developers the knowledge they need to make well-informed choices and produce exceptional software.
