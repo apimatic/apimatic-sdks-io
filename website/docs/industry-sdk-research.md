@@ -25,14 +25,14 @@ With 34% of businesses employing code generators and 44% supplying a public API 
 
  We anticipate that these findings will be useful to API companies  looking to enhance their SDK programs and developers seeking to create more efficient SDKs.
 
-## SDK Breakdown
+## SDK Language Breakdown
 
 In our research, we analyzed 474 SDKs from 100 companies. What we discovered was fascinating.
 
-From the oldest SDK, which was released in 2009, to the newest in 2023, we found that the average age of an SDK was a mere 5 years old! SDKs are in constant evolution, always improving and expanding their features to fit users' needs.
+From the oldest SDK, which was released in 2009, to the newest in 2023, we found that the **average age of an SDK was a mere 5 years old**! SDKs are in constant evolution, always improving and expanding their features to fit users' needs.
 
-But what's even more interesting is the average number of releases, which was 43 over the lifespan of our SDKs. Taking our average age of 5 years, that's roughly 8 releases a year. I'm sure this varies between SDK programs and depends on how often APIs change and other factors.
+But what's even more interesting is the average number of releases, which was 43 over the lifespan of our SDKs. Taking our average age of 5 years, that's **roughly 8 releases a year**. We are sure this varies between SDK programs and depends on how often APIs change and other factors.
 
-We also found that 86% of these SDKs use semantic versioning, which make it easy for developers to understand changes in the code and quickly adapt to them.
+We also found that **86% of these SDKs use semantic versioning**, which make it easy for developers to understand changes in the code and quickly adapt to them.
 
-But perhaps the most exciting part of our survey was discovering the vast array of programming languages that these SDKs support. With 21 languages represented, we found that **94% of companies support JavaScript** when you include TypeScript in the total calculations. In second place is **Python with 69%** of companies supporting the language followed closely by Java (60%), Ruby(57%) and PHP (54%).  **CSharp (41%) barely edged out GoLang (37%)** for the 6th place in our programming language list with  and  respectively.  Swift (22%), Kotlin (13%) and Objective-C (8%) make a good showing before we drop to the low single digits for all other languages.
+But perhaps the most exciting part of our survey was discovering the vast array of programming languages that these SDKs support. With 21 languages represented, we found that **94% of companies support JavaScript** when you include TypeScript in the total calculations. In second place is **Python with 69%** of companies supporting the language followed closely by Java (60%), Ruby(57%) and PHP (54%).  **CSharp (41%) barely edged out GoLang (37%)** for the 6th place in our programming language list.  Swift (22%), Kotlin (13%) and Objective-C (8%) make a good showing before we drop to the low single digits for all other languages.
