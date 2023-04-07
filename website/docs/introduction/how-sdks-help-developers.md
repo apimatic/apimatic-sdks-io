@@ -16,7 +16,7 @@ In order to understand how SDKs help developers, it might help to contrast it wi
 
 Imagine, you’ve just joined Pied Piper's engineering team and it’s your first day. You’ll have a team supporting you from configuring your laptop to gaining access to systems and a lot of documentation around how engineering is done at Pied Piper. Most importantly, you spend time with your manager and your new team. Their job is to get you up and running so you can start contributing as soon as possible.
 
-![Welcome to MegaCorp](/img/introduction-megacorp.webp)
+![Welcome to Pied Piper](/img/introduction-megacorp.webp)
 
 Companies offering APIs to external developers want to help them get up and running quickly as well. This is challenging as the developer community has diverse experiences, different use cases and preferred programming languages. It’s impossible to offer one on one support as number of developers using your product increases. SDKs help companies scale self-service onboarding by providing [code libraries](/docs/introduction/what-is-an-sdk#code-libraries), [sdk documentation](/docs/introduction/what-is-an-sdk#sdk-documentation), [getting started guides](/docs/introduction/what-is-an-sdk#getting-started-guides), [code examples](/docs/introduction/what-is-an-sdk#code-examples) and specific [use case guides](/docs/introduction/what-is-an-sdk#use-case-guides), and more.
 
