@@ -1,6 +1,7 @@
 {
   "label": "Best Practices",
   "position": 3,
+  "collapsed": false,
   "link": {
     "type": "generated-index"
   }
