@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 image: /covers/introduction/index.png
 sidebar_label: Glossary
 title: Glossary of SDK terms
