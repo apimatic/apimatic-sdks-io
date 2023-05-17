@@ -31,7 +31,7 @@ SDKs.io aims to improve the state of SDK development by offering a compilation o
 
 ## Why did we create SDKs.io
 
-Our team at [APIMatic](https://www.apimatic.io?utm_source=sdksio&utm_medium=referral) have a lot of expereince building SDKs for APIs and want to share it with you. Throughout the site we share our opinions on a range of topics informed by our experiences building SDKs used by millions of developers.
+Our team at [APIMatic](https://www.apimatic.io?utm_source=sdksio&utm_medium=referral) have a lot of experience building SDKs for APIs and want to share it with you. Throughout the site we share our opinions on a range of topics informed by our experiences building SDKs used by millions of developers.
 
 ## Contributing
 
