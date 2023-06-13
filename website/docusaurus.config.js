@@ -10,6 +10,7 @@ const config = {
   tagline: 'Creating SDKs, Connecting APIs',
   url: 'https://sdks.io',
   baseUrl: '/',
+  trailingSlash: true,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
