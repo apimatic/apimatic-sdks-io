@@ -43,7 +43,3 @@ We also found that **86% of these SDKs use semantic versioning**, which make it 
 But perhaps the most exciting part of our survey was discovering the vast array of programming languages that these SDKs support. With 21 languages represented, we found that **94% of companies support JavaScript** when you include TypeScript in the total calculations. In second place is **Python with 69%** of companies supporting the language followed closely by Java (60%), Ruby(57%) and PHP (54%).  **CSharp (41%) barely edged out GoLang (37%)** for the 6th place in our programming language list.  Swift (22%), Kotlin (13%) and Objective-C (8%) make a good showing before we drop to the low single digits for all other languages.
 
 ![SDK research on 100 companies and language popularity](/img/research-language-popularity-2.png)
-
-## Contribute to our Research
-
-<iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrR4ST0SRdR1cYiO?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="1562"></iframe>
