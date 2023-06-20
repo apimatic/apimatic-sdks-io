@@ -28,14 +28,7 @@ const config = {
     locales: ['en'],
   },
 
-  scripts: [
-    {
-      src: 'https://static.airtable.com/js/embed/embed_snippet_v1.js',
-      async: true,
-    },
-  ],
 
-  
 
   presets: [
     [
