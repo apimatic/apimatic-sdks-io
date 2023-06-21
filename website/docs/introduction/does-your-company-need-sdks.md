@@ -23,7 +23,7 @@ Based on my experience, here are a few reasons to ** NOT ** build SDKs.
 
 [Nightfall AI](https://www.nightfall.ai/) offers data classification and protection. Companies concerned about PII (Personal Identifiable Information) or other sensitive data being incorrectly captured or stored in their systems can use the Nightfall’s API to detect and protect sensitive data. [Nightfall’s API reference](https://docs.nightfall.ai/reference/scanpayloadv3) documents 5 endpoints (upload and scan). They could hold off building SDKs, but chose to [offer SDKs](https://docs.nightfall.ai/docs/intro-nightfall-sdks) to their customers. I don't know the exact reasoning, but from experience, working with binary data through APIs can add complexity. I suspect they want to remove any possible barriers to adoption and SDKs can help.
 
-Complexity can come in several forms. Authenticaion methods may be non-standard or have additional requirements to function properly. Complexity can also take the form of models with a large number of properties, nested properties, nested objects, and nested arrays of objects. 
+Complexity can come in several forms. Authentication methods may be non-standard or have additional requirements to function properly. Complexity can also take the form of models with a large number of properties, nested properties, nested objects, and nested arrays of objects. 
 
 Understanding the number of use cases your API supports is important in creating documentation to educate developers. As you mix and match endpoints to support different scenerios, you increase the need for SDKs to help implement them.
 
