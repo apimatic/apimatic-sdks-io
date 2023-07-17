@@ -12,14 +12,14 @@ keywords:
     - CI/CD
 ---
 
-[APIMatic](https://www.apimatic.io?utm_source=sdksio&utm_medium=referral) is a developer experience platform used by API companies to generate SDKs and documentation from API specifications. The founder recognized the potential for generating client SDKs from API specifications while working on his PhD thesis at University of Ackland. He started APIMatic as a way to help companies deliver experiences which lead to higher API adoption. SDKs built with APIMatic are used by millions of developers.
+[APIMatic](https://www.apimatic.io?utm_source=sdksio&utm_medium=referral) is a developer experience platform used by API companies to generate SDKs and documentation from API specifications. The founder recognized the potential for generating client SDKs from API specifications while working on his PhD thesis at University of Auckland. He started APIMatic as a way to help companies deliver experiences which lead to higher API adoption. SDKs built with APIMatic are used by millions of developers.
 
 APIMatic has a suite of features to support developers through the API journey.
 
 ### Authentication assistance
 APIMatic SDKs have built-in support for popular OAuth flows that provide helper methods to generate access tokens and append them with each API request.
 
-### Autogenerate SDKs and code samples
+### Auto generated SDKs and code samples
 SDKs with excellent code samples are the fastest way to integrate APIs. APIMatic autogenerates SDKs and idiomatic, production-ready code that developers can cut and paste directly into their codebase.
 
 ### Language-specific docs and get-started guides
@@ -32,6 +32,6 @@ Developers can make API calls directly from the documentation and modify code in
 Host language-specific documentation and SDKs on one domain where developers can play with  your API or embed alongside existing documentation in your developer portal.
 
 ### Automate via CI/CD and CLI
-APIMatic has full CI/CD integration making it easier to create and maintain your developer experience with continuous code generation. Any updates and changes to your specification will flow through to your SDKs and documenatation.
+APIMatic has full CI/CD integration making it easier to create and maintain your developer experience with continuous code generation. Any updates and changes to your specification will flow through to your SDKs and documentation.
 
 Let's take APImatic on a test drive.
