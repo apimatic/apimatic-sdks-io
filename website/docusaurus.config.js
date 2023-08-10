@@ -120,6 +120,10 @@ const config = {
                 label: 'Twitter',
                 href: 'https://twitter.com/apimatic',
               },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/apimatic/apimatic-sdks-io',
+              },
             ],
           },
           {
@@ -130,8 +134,12 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/apimatic/apimatic-sdks-io',
+                label: 'Archive',
+                to: '/blog/archive',
+              },
+              {
+                label: 'Search',
+                to: '/search',
               },
             ],
           },
