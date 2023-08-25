@@ -12,13 +12,13 @@ keywords:
     - SDKs
 ---
 
-APIMatic is a SaaS product and has a free trial. You can explore the capabilities and generete SDKs along with documentation to see what's possible.
+APIMatic is a SaaS product and has a free trial. You can explore the capabilities and generate SDKs along with documentation to see what's possible.
 
 ## Signup
 Start by [creating your APIMatic account](https://www.apimatic.io/account/register?utm_source=sdksio&utm_medium=referral). When done, you'll be directed to APIMatic's dashboard.
 
 ## Import an API
-From  APIMatic’s dashboard you've got the option to create an API specification, use a Sample API or Import and existing API specification.
+From  APIMatic’s dashboard you've got the option to create an API specification, use a Sample API or import an existing API specification.
 
 ![APIMatic Dashboard Create API](/img/apimatic-dashboard-create-api.png)
 

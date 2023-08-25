@@ -96,7 +96,7 @@ paths:
 
 * Avoid marketing terms. Use generic names not affected by branding changes.
 * Avoid overly generic names like "settings" to reduce refactoring in the future.
-For e.g "DiagnosticSettings" instead of only "Settings".
+For example, "DiagnosticSettings" instead of only "Settings".
 * Be consistent between versions of your SDK.
 * Avoid using stop words like "a", "the" and "and" in the name.
 

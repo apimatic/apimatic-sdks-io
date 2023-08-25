@@ -60,7 +60,7 @@ else
 end
 ```
 
-Another example is an API who's response contains custom headers with rate limit details (X-Ratelimit-Limit and X-Ratelimit-Remaining). It's important this metadata is sufaced properly to developers along with deserialized objects. 
+Another example is an API who's response contains custom headers with rate limit details (X-Ratelimit-Limit and X-Ratelimit-Remaining). It's important this metadata is surfaced properly to developers along with deserialized objects. 
 
 ``` csharp
 using System;

@@ -2,7 +2,7 @@
 sidebar_position: 1
 image: /covers/best-practices/support/documentation.png
 sidebar_label: Documentation
-title: Create Comprehensive SDK Documention
+title: Create Comprehensive SDK Documentation
 description: Writing comprehensive documentation for your software development kit (SDK) is critical for developers to understand your product and get the most out of it. Include an overview, SDK reference, code samples, getting started guide, and guided walkthroughs.
 keywords:
     - SDK
@@ -29,11 +29,11 @@ Algolia provides guides for common search scenerios like [including multiple res
 ![Algolia Guides](/img/support-docs-algolia-guides.png)
 
 ## Code Samples
-It’s important to you include code demonstrating authentication as this will be the first hurdle developers encounter after installing your SDK. Include a runnable code sample with each method in your SDK reference. This allows developers to copy and paste code from our documentation into their project while learning about your APIs.
+It’s important to include code demonstrating authentication as this will be the first hurdle developers encounter after installing your SDK. Include a runnable code sample with each method in your SDK reference. This allows developers to copy and paste code from our documentation into their project while learning about your APIs.
 
 You can create these code samples by generating them from an API specification. Be sure to test them and confirm they are runnable. Alternatively, you could manually build the code samples and store them in a code repository like GitHub where they can be maintained and pulled into your documentation during a build process. 
 
-Contentful sufaces code samples for each of their SDKs inside their API reference docs. I especially like the [deep linking](https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/content-types/content-model/get-the-content-model-of-a-space/console/js) that takes you directly to the code sample in the language you want.
+Contentful surfaces code samples for each of their SDKs inside their API reference docs. I especially like the [deep linking](https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/content-types/content-model/get-the-content-model-of-a-space/console/js) that takes you directly to the code sample in the language you want.
 
 ![Contentful docs code samples](/img/support-docs-contentful-code-samples.png)
 

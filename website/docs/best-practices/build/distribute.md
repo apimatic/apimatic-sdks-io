@@ -12,7 +12,7 @@ keywords:
     - developers
 ---
 
-Package publishing is the process of sharing software packages with others. A software package typically contains the compiled code, dependencies, and other resources required to use a library, framework, or application. You'll want to use package publishing to share your SDK with developers. By publishing (essentially a fancy word for uploading) your SDK to these public repoitories, others can download and you use them. This simplifies the process of downloading and updating any libraries they depend on in their application.
+Package publishing is the process of sharing software packages with others. A software package typically contains the compiled code, dependencies, and other resources required to use a library, framework, or application. You'll want to use package publishing to share your SDK with developers. By publishing (essentially a fancy word for uploading) your SDK to these public repositories, others can download and you use them. This simplifies the process of downloading and updating any libraries they depend on in their application.
 
 Package publishing involves creating a distributable package of software that typically contains the compiled code, documentation, and any necessary dependencies. 
 
