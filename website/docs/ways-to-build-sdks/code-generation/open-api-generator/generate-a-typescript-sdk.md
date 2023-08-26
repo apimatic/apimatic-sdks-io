@@ -12,7 +12,7 @@ keywords:
     - Compilation
 ---
 
-There are many [langage templates](https://openapi-generator.tech/docs/generators/) to choose from. (Clojure, CSharp, Elixir, Go, Java, PHP, Python, Ruby, Typescript and more) 
+There are many [language templates](https://openapi-generator.tech/docs/generators/) to choose from. (Clojure, CSharp, Elixir, Go, Java, PHP, Python, Ruby, Typescript and more) 
 
 Typescript offers several flavors to generate either server-side or front-end SDKs.
 

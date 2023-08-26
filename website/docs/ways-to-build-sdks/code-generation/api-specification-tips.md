@@ -47,7 +47,7 @@ Examples given for parameters, media types, or schemas should not be empty or  n
  For Code Generators, it is recommended that optional parameters be specified after all the required parameters have been specified and not before or between required parameters.
 
 ### Add descriptions to API components
- Adding descriptions to OpenAPI components so developers can understand an  API more easily. Descriptions should be specified for the following OAS properties. Make sure that descriptions are not null or empty.
+ Add descriptions to OpenAPI components so developers can understand an  API more easily. Descriptions should be specified for the following OAS properties. Make sure that descriptions are not null or empty.
  * Info description
  * Operation description
  * Parameter description

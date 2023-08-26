@@ -12,11 +12,11 @@ keywords:
     - Sample App
 ---
 
-After successfully importing an API specification, you are returned to the dashboard and you have the option to edit docs, edit API or generate artifacts.  Click the **generate** button. You API specification will be validated, then click **proceed**.
+After successfully importing an API specification, you are returned to the dashboard and you have the option to edit docs, edit API or generate artifacts.  Click the **generate** button. Your API specification will be validated, then click **proceed**.
 
 In the dialog box shown, your choice is to create a complete developer portal with SDKs or a single SDK.
 
-You could generate a single SDK, but we want the runnable code samples from the developer portal to build our sample app. So, click **Preview API Portal**
+You could generate a single SDK, but we want the runnable code samples from the developer portal to build our sample app. So, click **Preview API Portal**.
 
 ## Generate Dev Portal
 

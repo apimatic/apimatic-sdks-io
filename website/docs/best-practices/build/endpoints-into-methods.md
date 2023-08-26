@@ -2,7 +2,7 @@
 sidebar_position: 2
 image: /covers/best-practices/build/endpoints-into-methods.png
 sidebar_label: Endpoints into Methods
-title: Translating API Endponts into SDK Methods
+title: Translating API Endpoints into SDK Methods
 description: Learn how to organize endpoints into methods in order to create an efficient SDK. Discover best practices when setting headers and constructing URLs with query parameters, and find out how to reduce the number of classes developers need to initialize.
 keywords: 
     - SDK
@@ -23,7 +23,7 @@ Should you put all methods in a single class and call it ApiClient. This has the
 
 Grouping related methods in a class with an intuitive name may be a better choice. For example, getContact, listContacts and createContact, etc would go in a class named ContactsApi (or something like it). Organizing methods in this way also helps with [code hinting](/docs/best-practices/design/code-hinting). Developers initializing ContactsApi see a short list of available and highly relevant methods.
 
-Below are component parts you’ll employ in a method depending on your API.
+Below are components you’ll employ in a method depending on your API.
 
 * Validate argument(s) 
 * Set header(s)

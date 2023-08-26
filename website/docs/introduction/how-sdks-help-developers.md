@@ -22,7 +22,7 @@ Companies offering APIs to external developers want to help them get up and runn
 
 Let’s dive into the many ways SDKs help developers. 
 
-1. APIs typically have some form of secuity. Developers not familiar with how you have secured your APIs may struggle writing this code themselves. SDKs save developers time by providing the methods and classes as well as instructions to securely access API endpoints.
+1. APIs typically have some form of security. Developers not familiar with how you have secured your APIs may struggle writing this code themselves. SDKs save developers time by providing the methods and classes as well as instructions to securely access API endpoints.
    
 2. APIs typically have several endpoints that accept requests and return responses with data. SDKs save developers time writing lots of boilerplate code that every developer needs and varies only slightly from endpoint to endpoint. 
 

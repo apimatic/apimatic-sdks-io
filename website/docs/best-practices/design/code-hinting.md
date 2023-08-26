@@ -20,7 +20,7 @@ Code hinting helps developers by speeding up the development process and reducin
 
 By providing these suggestions, code hinting can also help developers write more maintainable code. Consistent use of the correct syntax and structure makes code easier to read, understand, and modify by other developers in the future.
 
-In the [naming conventions section](/docs/best-practices/design/naming-conventions), we grouping related methods together in the same class. By doing this, developers can type and see a popup list of  available methods in a class to discover functionality they seek.
+In the [naming conventions section](/docs/best-practices/design/naming-conventions), we group related methods together in the same class. By doing this, developers can type and see a popup list of  available methods in a class to discover functionality they seek.
 
 ## Standards for code annotation
 

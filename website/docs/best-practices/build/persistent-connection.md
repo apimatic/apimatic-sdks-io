@@ -16,7 +16,7 @@ HTTP enables communication between clients and servers. Based around requests an
 
 An HTTP connection involves resolving the DNS of the request, establishing a TCP connection and performing a TLS handshake (ensuring it is secure). Repeatedly establishing connections consumes network resources, causing network congestion and increasing latency. 
 
-HTTP keep alive allows your developers to send and receive multiple HTTP requests through a single TCP connection. Avoiding the need to initialize a new connection for each API call. Connections are persistent by default for HTTP/1.1 clients, while HTTP/1.0 connections you’ll pass the “Connection: keep-alive” request header to explicitly persist a connection. Optionally, you can use the Keep-Alive header to set the timeout and maximum number of requests for a TCP connection.
+HTTP keep-alive allows your developers to send and receive multiple HTTP requests through a single TCP connection, avoiding the need to initialize a new connection for each API call. Connections are persistent by default for HTTP/1.1 clients, while HTTP/1.0 connections you’ll pass the “Connection: keep-alive” request header to explicitly persist a connection. Optionally, you can use the Keep-Alive header to set the timeout and maximum number of requests for a TCP connection.
 
 ## Python Persistent Conntection
 Here's an example for setting up an HTTP client to establish persistent connection in Python using the requests library:

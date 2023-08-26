@@ -22,7 +22,7 @@ The developer portal has complete API reference for your API. Authentication is 
 
 ## Language specific documentation
 
-Developers can select their preferred programming language and see documentation designed for them. Step by step instructions for using the correspondind SDK and each endpoint has code samples.
+Developers can select their preferred programming language and see documentation designed for them. It includes step-by-step instructions for using the corresponding SDK and each endpoint has code samples.
 
 ![APIMatic custom branding](/img/apimatic-documentation.png)
 
@@ -32,7 +32,7 @@ Code samples are condensed to focus on the functionality of each endpoint, but c
 
 By API playground, APIMatic means developers with a valid access token can interact with your API directly from the documentation. Clicking the "Try it out" button will execute and API call and the response will be displayed in the documentation.
 
-## Auto-generated tutorals
+## Auto-generated tutorials
 
 A step by step tutorial is generated and customized for each language SDK.  Screenshots are dynamically updated for your API. If you've published your SDKs, these tutorials are updated to include dependency instructions.
 
