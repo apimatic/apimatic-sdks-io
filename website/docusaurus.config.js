@@ -77,7 +77,7 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://www.apimatic.io?utm_source=sdksio&utm_medium=referral',
-            html: '<span>Powered by </span><img src="https://blogwp.apimatic.io/wp-content/uploads/2021/12/apimatic-logo-1.svg" alt="APIMatic logo" />',
+            html: '<span>Powered by </span><img src="/img/apimatic-logo.svg" alt="APIMatic logo" />',
             position: 'right',
             className: 'powered-logo'
           },
