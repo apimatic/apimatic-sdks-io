@@ -1,8 +1,8 @@
 ---
 sidebar_position: 5
-image: /covers/introduction/does-your-company-need-sdks.png
-sidebar_label: Signals you need SDKs
-title: Signals you need SDKs
+image: /covers/introduction/does-your-api-need-sdks.png
+sidebar_label: Does your API need SDKs
+title: Does your API need SDKs
 description: Building SDKs can be a key investment for businesses to engage developers & keep them up-to-date with the latest features. Consider API complexity, use cases & target developers before investing.
 keywords: 
     - Build

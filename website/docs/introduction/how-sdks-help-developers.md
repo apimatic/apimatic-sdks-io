@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-image: /covers/introduction/how-sdks-help-developers.png
+image: /covers/introduction/why-developers-want-sdks.png
 sidebar_label: Why developers want SDKs
 title: Why developers want SDKs
 description: SDKs give dev teams an edge by providing code libraries, tools, documentation & sample code to help them save time and make even complex tasks easier.
