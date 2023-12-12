@@ -48,7 +48,8 @@ There may be several code styles to choose from in each language. Checkout the [
 
 ### C#
 * [Microsoft coding conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
-* [StyleCop](https://documentation.help/StyleCop/StyleCop%20Rules.html)
+* [Microsoft.CodeAnalysis.NetAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.NetAnalyzers)
+* [CSharpier](https://github.com/belav/csharpier)
 
 ### Python
 * [Python Style Guide](https://www.python.org/doc/essays/styleguide/)
