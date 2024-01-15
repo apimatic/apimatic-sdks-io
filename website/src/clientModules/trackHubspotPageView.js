@@ -7,11 +7,16 @@ export function onRouteDidUpdate({ location, previousLocation }) {
     // because the hash changes (e.g. when navigating between headings)
     if (location.pathname !== previousLocation?.pathname) {
         if (window._apimaticNotFirstRouteChange) {
-            // Track page view using Hubspot tracking API.
-            // Ref: https://developers.hubspot.com/docs/api/events/tracking-code#set-page-path
-            const _hsq = window._hsq = window._hsq || [];
-            _hsq.push(['setPath', location.pathname]);
-            _hsq.push(['trackPageView']);
+            // Unfortunately, the onRouteDidUpdate is fired too early by Docusaurus, without
+            // waiting for the document title to be updated. We delay the code run to
+            // so that we can capture the right document title. A less hacky solution is welcome.
+            setTimeout(function () {
+                // Track page view using Hubspot tracking API.
+                // Ref: https://developers.hubspot.com/docs/api/events/tracking-code#set-page-path
+                const _hsq = window._hsq = window._hsq || [];
+                _hsq.push(['setPath', location.pathname]);
+                _hsq.push(['trackPageView']);
+            }, 500);
         }
 
         // Avoid triggering the above code on first page load. Hubspot tracking code automatically
