@@ -1,6 +1,7 @@
 // Hubspot's tracking code does not detect HTML5 history-based changes. This script hooks
 // into Docusaurus's page lifecyle event and "tracks" the page when the page content
-// is loaded.
+// is loaded. Also, it stores the cross-domain tracking params into a global variable
+// so that it can be inserted into APIMatic-owned domains.
 
 export function onRouteDidUpdate({ location, previousLocation }) {
     // Don't execute if we are still on the same page; the lifecycle may be fired
@@ -16,7 +17,7 @@ export function onRouteDidUpdate({ location, previousLocation }) {
                 const _hsq = window._hsq = window._hsq || [];
                 _hsq.push(['setPath', location.pathname]);
                 _hsq.push(['trackPageView']);
-            }, 500);
+            }, 300);
         }
 
         // Avoid triggering the above code on first page load. Hubspot tracking code automatically
@@ -25,3 +26,11 @@ export function onRouteDidUpdate({ location, previousLocation }) {
         window._apimaticNotFirstRouteChange = true;
     }
 }
+
+// Get the cross-domain query parameters and store them in a string,
+// so that they can be appended to links as needed.
+window._hsq = window._hsq || [];
+_hsq.push(['addIdentityListener', function (hstc, hssc, hsfp) {
+    // Add these query parameters to any links that point to a separate tracked domain
+    window._apimaticCrossDomainTrackingParams = '__hstc=' + hstc + '&__hssc=' + hssc + '&__hsfp=' + hsfp;
+}]);
