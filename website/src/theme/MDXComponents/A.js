@@ -20,7 +20,7 @@ function updatePropsForApimaticLinks(props) {
 
   const areHubspotTrackingParamsAvailable = !!window._apimaticCrossDomainTrackingParams;
   const isKnownApimaticDomain = isApimaticDomain(parsed);
-  const hasHubspotTrackingParams = parsed.searchParams.has('_hstc');
+  const hasHubspotTrackingParams = parsed.searchParams.has('__hstc');
 
   if (areHubspotTrackingParamsAvailable && isKnownApimaticDomain && !hasHubspotTrackingParams) {
     parsed.search += (parsed.search ? '&' : '?') + window._apimaticCrossDomainTrackingParams;
