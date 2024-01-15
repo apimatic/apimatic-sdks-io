@@ -157,6 +157,10 @@ const config = {
         indexName: "sdks",
       }
     }),
+
+  // These are customizations that are injected on the client side.
+  // Ref: https://docusaurus.io/docs/advanced/client#client-modules
+  clientModules: ['./src/clientModules/trackHubspotPageView.js'],
 };
 
 module.exports = config;
