@@ -1,3 +1,5 @@
+import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
+
 // Hubspot's tracking code does not detect HTML5 history-based changes. This script hooks
 // into Docusaurus's page lifecyle event and "tracks" the page when the page content
 // is loaded. Also, it stores the cross-domain tracking params into a global variable
@@ -29,8 +31,10 @@ export function onRouteDidUpdate({ location, previousLocation }) {
 
 // Get the cross-domain query parameters and store them in a string,
 // so that they can be appended to links as needed.
-window._hsq = window._hsq || [];
-_hsq.push(['addIdentityListener', function (hstc, hssc, hsfp) {
-    // Add these query parameters to any links that point to a separate tracked domain
-    window._apimaticCrossDomainTrackingParams = '__hstc=' + hstc + '&__hssc=' + hssc + '&__hsfp=' + hsfp;
-}]);
+if (ExecutionEnvironment.canUseDOM) {
+    window._hsq = window._hsq || [];
+    _hsq.push(['addIdentityListener', function (hstc, hssc, hsfp) {
+        // Add these query parameters to any links that point to a separate tracked domain
+        window._apimaticCrossDomainTrackingParams = '__hstc=' + hstc + '&__hssc=' + hssc + '&__hsfp=' + hsfp;
+    }]);
+}
