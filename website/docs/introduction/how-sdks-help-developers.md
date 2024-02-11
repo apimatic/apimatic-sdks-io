@@ -12,7 +12,7 @@ keywords:
     - Developer Tools
 ---
 
-Not every developer uses an SDK to connect to and utilze an API. There are various reasons, but it often boils down to experience and preference. Your developer audience is not a monolith but is a spectrum ranging from 10x engineers to citizen developers. The 10x engineer may have built dozens of API integrations and developed a custom code base they prefer to use. The growing community of citizen developers may leverage low-code and no-code platforms. The large number of developers between the two extremes are the ones who seek out SDKs to reduce their learning curve and increase productivity.
+Not every developer uses an SDK to connect to and utilize an API. There are various reasons, but it often boils down to experience and preference. Your developer audience is not a monolith but is a spectrum ranging from 10x engineers to citizen developers. The 10x engineer may have built dozens of API integrations and developed a custom code base they prefer to use. The growing community of citizen developers may leverage low-code and no-code platforms. The large number of developers between the two extremes are the ones who seek out SDKs to reduce their learning curve and increase productivity.
 
 Let's explore why many developers want SDKs written in their preferred programming language. 
 

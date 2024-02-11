@@ -24,7 +24,7 @@ Evidence may be visible in your support tickets, developer forums or sites like 
 Once you've settled on a short list of languages, evaluate your team's skills in each language. You may need to hire additional engineers or outsource some SDK development to experts in a language. The data collected can be used to support a business case for additional head count or budget.  
 
 ### Are there frameworks that would be most attracted to your solution?
-Instead of targeting all python developers, your API may be very attractive those using Django, a popular python framework. Do your homework and validate your assumptions before placing big bets on specific developer communities. The "build it and they will come" approach risks investing valuable engineering time to build a solution that doesn't catch on.
+Instead of targeting all Python developers, your API may be very attractive those using Django, a popular Python framework. Do your homework and validate your assumptions before placing big bets on specific developer communities. The "build it and they will come" approach risks investing valuable engineering time to build a solution that doesn't catch on.
 
 Depending on demand you may evaluate your SDK for compatibility and add or modify it to better support specific frameworks. Sometimes, a starter project that demonstrates how to use your SDK with that framework in enough. A small time investment could bring big returns.
 

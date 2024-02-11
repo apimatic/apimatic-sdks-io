@@ -30,7 +30,7 @@ You can introduce the concept of **company led, community driven** by open sourc
 
 At Xero, we didn't resource our SDK development and instead let the community open source their libraries. We monitored which ones gained traction and eventually added them to our developer portal as the *official* libraries for that language.
 
-We took time to validate they worked properly with our APIs and reached out to the maintainers to thank them for their contributions. Some were happy for the recogniztion and even invited our team in to contribute, respond to issues and merge pull requests. 
+We took time to validate they worked properly with our APIs and reached out to the maintainers to thank them for their contributions. Some were happy for the recognition and even invited our team in to contribute, respond to issues and merge pull requests. 
 
 Things got uncomfortable when one project got overwhelmed by issues and PRs and requested a full time Xero engineer be assigned to help out. We found our selves in a tough spot. We didn't have resources to build our own SDKs and devoting them to a project we didn't own was a tough sell. In the end, we declined his request which didn't feel great.
 
