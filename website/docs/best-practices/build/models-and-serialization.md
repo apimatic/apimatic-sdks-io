@@ -39,7 +39,7 @@ public int calculateAge(LocalDate currentDate) {
 }
 ```
 
-The benefit of data typing is generally recognized is most programming languages. Deseralizing untyped JSON data into models with typed properties provide this to developers using your SDKs.
+The benefit of data typing is generally recognized in most programming languages. Deseralizing untyped JSON data into models with typed properties provide this to developers using your SDKs.
 
 Transfer objects have been adapted in C# with POCO. Ruby and Python have type-hinting support. Ruby has [Sorbet](https://sorbet.org/) which helps you add type-hints that later help provide IDE features like autocomplete and jump-to-defintion. Similarly, Python has [mypy](https://mypy.readthedocs.io/en/stable/index.html). TypeScript is a typed superset of JavaScript and has extensive typing support that works both in JavaScript and TypeScript codebases. Even untyped languages like PHP have built-in typing support as developers working in large codebases see the benefits of having some type information, at least on the interface level.
 
