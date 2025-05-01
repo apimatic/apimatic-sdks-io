@@ -82,7 +82,7 @@ Buy options often advertise you can generate SDKs and documentation in minutes. 
 * *Build* loss of expertise and knowledge
 * *Buy* benefit from a team 100% focused on SDKs and developer experience
 
-We hate to think about talented engineers leaving our team, but it happens. The tooling you build in house will take a unique skill set and a lot of knowledge will be accrued along the way. Replacing engineers on your team with experience and passion for SDKs may be a challenge. I lost two of engineers mid-project and didn't know if we were going to make it. I got really lucky and was able to hire someone who had a passion for building SDKs and did an amazing job. After that experience, I built redundancy into the team by having a lead and backup for each language. Of course, I was the lead for two languages and eventually left the company.
+We hate to think about talented engineers leaving our team, but it happens. The tooling you build in house will take a unique skill set and a lot of knowledge will be accrued along the way. Replacing engineers on your team with experience and passion for SDKs may be a challenge. I lost two engineers mid-project and didn't know if we were going to make it. I got really lucky and was able to hire someone who had a passion for building SDKs and did an amazing job. After that experience, I built redundancy into the team by having a lead and backup for each language. Of course, I was the lead for two languages and eventually left the company.
 
 Buying a solution should be seen as augmenting your team with SDK experts back by a company that exists only for creating SDKs and documentation. Of course, you'll still be heavily invested in the SDK program but won't have to do it all by yourself.
 
